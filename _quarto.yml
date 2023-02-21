@@ -24,3 +24,7 @@ format:
   html:
     theme: minty
     mainfont: serif
+
+comments:
+  giscus:
+    repo: iuryt/iuryt.github.io

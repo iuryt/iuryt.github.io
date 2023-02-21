@@ -154,7 +154,7 @@ cookieconsent.run({
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -190,7 +190,7 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Storing an Obsidian vault on GitHub</h1>
@@ -223,68 +223,124 @@ cookieconsent.run({
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#why-integrate-obsidian-with-github" id="toc-why-integrate-obsidian-with-github" class="nav-link" data-scroll-target="#why-integrate-obsidian-with-github">Why integrate Obsidian with GitHub?</a></li>
+  </ul></li>
+  <li><a href="#linux" id="toc-linux" class="nav-link" data-scroll-target="#linux">Linux</a></li>
+  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a></li>
+  </ul>
+</nav>
+</nav>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="obsidian-github.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
+<p><img src="obsidian-github.png" class="img-fluid" style="width:50.0%"></p>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <p>In this tutorial, you will learn how to integrate Obsidian, a popular note-taking app, with GitHub, a web-based version control system. By doing this, you can store your notes on GitHub and have a version history that allows you to revert to previous versions if needed. In addition, you can collaborate with others by sharing your notes with them and even work on them simultaneously. This tutorial assumes that you are familiar with Obsidian and GitHub.</p>
-</section>
-<section id="why-integrate-obsidian-with-github" class="level1">
-<h1>Why integrate Obsidian with GitHub?</h1>
+<section id="why-integrate-obsidian-with-github" class="level2">
+<h2 class="anchored" data-anchor-id="why-integrate-obsidian-with-github">Why integrate Obsidian with GitHub?</h2>
 <p>Recently I started using Obsidian to organize my notes. What I love most about this software is that everything is in Markdown, which not only makes it easy to access and port to other tools, but I am also free to make my own code in Python or other languages to interact with the notes. If you are curious about Obsidian, there are several tutorials on the internet for you to learn how to use it.</p>
 <p>Obsidian is a great note-taking app that uses Markdown, making it easy to access and port your notes to other tools. However, Obsidian charges a fee for synchronization between different devices. One way to work around this is to use a storage service like Dropbox, Google Drive, or OneDrive. However, if you want to mix code and tutorials with your notes or are concerned about different versions of your notes, integrating with GitHub is a good alternative. GitHub allows you to store your notes on its platform and also provides version control, which means you can keep track of all changes made to your notes.</p>
 </section>
+</section>
 <section id="linux" class="level1">
 <h1>Linux</h1>
-<section id="step-1-create-a-new-repository-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-create-a-new-repository-on-github">Step 1: Create a new repository on GitHub</h2>
+<ol type="1">
+<li>Create a new repository on GitHub</li>
+</ol>
 <p>The first step is to create an empty repository on GitHub. Go to GitHub and create a new repository.</p>
-</section>
-<section id="step-2-clone-the-repository-to-your-local-machine" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-clone-the-repository-to-your-local-machine">Step 2: Clone the repository to your local machine</h2>
+<ol start="2" type="1">
+<li>Clone the repository to your local machine</li>
+</ol>
 <p>Once you have created the repository on GitHub, you need to clone it to your local machine. Open your terminal and navigate to the directory where you want to place your Obsidian vault. Then, run the following command:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>repository URL<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="step-3-copy-your-obsidian-vault-to-the-repository" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-copy-your-obsidian-vault-to-the-repository">Step 3: Copy your Obsidian vault to the repository</h2>
+<ol start="3" type="1">
+<li>Copy your Obsidian vault to the repository</li>
+</ol>
 <p>If you already have an Obsidian vault set up, you can copy all files and folders to the local repository. You can do this by running the following command:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span> <span class="op">&lt;</span>path/to/existing/vault<span class="op">&gt;</span> <span class="op">&lt;</span>path/to/repository<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>If you do not have an Obsidian vault set up yet, you can create one at the repository folder.</p>
-</section>
-<section id="step-4-sync-your-local-repository-with-github" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-sync-your-local-repository-with-github">Step 4: Sync your local repository with GitHub</h2>
+<ol start="4" type="1">
+<li>Sync your local repository with GitHub</li>
+</ol>
 <p>Once you have copied your Obsidian vault to the local repository, you need to sync it with GitHub. Run the following commands:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="op">&lt;</span>path/to/repository<span class="op">&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>These commands will add all the files in the repository to the staging area, create a commit with the message “Initial commit,” and push the changes to the main branch on GitHub.</p>
-</section>
-<section id="step-5-set-up-automatic-syncing-with-cron" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-set-up-automatic-syncing-with-cron">Step 5: Set up automatic syncing with cron</h2>
+<ol start="5" type="1">
+<li>Set up automatic syncing with cron</li>
+</ol>
 <p>Now that your Obsidian vault is in the repository, you need to set up automatic syncing with cron. Cron is a UNIX utility that allows you to schedule tasks to run at specific intervals. If you have more questions on how to install and configure cron, you can follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804">tutorial</a>. To set up cron, run the following command:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-e</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This will open the crontab file in the default text editor. Add the following line to the file:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">*/5</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> cd <span class="op">&lt;</span>path/to/repository<span class="op">&gt;</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> pull <span class="kw">&amp;&amp;</span> <span class="fu">git</span> add . <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Automatic update"</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">*/5</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> cd <span class="op">&lt;</span>path/to/repository<span class="op">&gt;</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> pull <span class="kw">&amp;&amp;</span> <span class="fu">git</span> add . <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Automatic update"</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This command will sync your local repository with the GitHub repository every 5 minutes. You can change the interval by replacing the “/5” with a different value. For example, “/10” would sync every 10 minutes, and “0 * * * *” would sync every hour.</p>
-</section>
-<section id="step-6-verify-that-everything-is-working" class="level2">
-<h2 class="anchored" data-anchor-id="step-6-verify-that-everything-is-working">Step 6: Verify that everything is working</h2>
+<ol start="6" type="1">
+<li>Verify that everything is working</li>
+</ol>
 <p>To verify that your Obsidian vault you can make some changes on a note and wait cron to run the command and check it updated on GitHub.</p>
-
-
 </section>
+<section id="windows" class="level1">
+<h1>Windows</h1>
+<p>If you’re a Windows user, you can do it using Windows Subsystem for Linux (WSL).</p>
+<ol type="1">
+<li>Choose a place on a Windows folder to put the vault</li>
+<li>Access the folder through WSL (you can access Windows files by <code>/mnt/</code>), clone the Git repository by running the following command in the WSL terminal:</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>repository URL<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
+<li>Change the default editor for <code>visudo</code> to <code>vim</code>. This is a personal preference, but many developers prefer <code>vim</code> over <code>nano</code>. To do this, run the following command in the WSL terminal:</li>
+</ol>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> update-alternatives <span class="at">--config</span> editor</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="5" type="1">
+<li><p>Select <code>vim.basic</code> from the list of editors.</p></li>
+<li><p>Grant <code>sudo</code> access to run <code>cron</code> without a password by adding the following line to the end of the <code>visudo</code> file:</p></li>
+</ol>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># run cron start with no password</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">%sudo</span> ALL=NOPASSWD: /usr/sbin/service cron start</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="7" type="1">
+<li><p>Save the changes and exit the <code>visudo</code> file.</p></li>
+<li><p>Open the <code>.bashrc</code> file by running the following command in the WSL terminal:</p></li>
+</ol>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> ~/.bashrc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="9" type="1">
+<li>Add the following line at the end of the <code>.bashrc</code> file to start <code>cron</code> automatically:</li>
+</ol>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> service cron start</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="10" type="1">
+<li><p>Create a cron job that updates the Git vault every 5 minutes. To do this, run the following command in the WSL terminal:</p></li>
+<li><p>Now we can add a cron job to update the vault every 5 minutes. Run <code>crontab -e</code> and add the following command at the end of the file</p></li>
+</ol>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-e</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then add the following line at the end of the file:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">*/5</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> cd <span class="op">&lt;</span>path/to/repository<span class="op">&gt;</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> pull <span class="kw">&amp;&amp;</span> <span class="fu">git</span> add <span class="at">--all</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Automatic backup"</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> push </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="11" type="1">
+<li><p>Save the changes and exit the file.</p></li>
+<li><p>f you want to start WSL automatically when you log in to your Windows account, you can create a scheduled task using the Windows Task Scheduler:</p>
+<ol type="1">
+<li>Open the Task Scheduler app on your Windows system.</li>
+<li>Click on “Create Basic Task” and follow the wizard to create a new task. 3)Set the trigger to “When I log on”.</li>
+<li>Set the action to “Start a Program” and select the path to WSL. For example:</li>
+</ol>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">C:\Windows\System32\wsl.exe</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -420,6 +476,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://giscus.app/client.js" data-repo="iuryt/iuryt.github.io" data-repo-id="R_kgDOJAbvaQ" data-category="General" data-category-id="DIC_kwDOJAbvac4CUXDS" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">
