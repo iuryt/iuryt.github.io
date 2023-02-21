@@ -16,8 +16,6 @@ website:
         href: blog.qmd 
       - icon: github
         href: https://github.com/iuryt
-      - icon: twitter
-        href: https://twitter.com/iurytss
   google-analytics: <Insert your ID here>
   cookie-consent: true
 
