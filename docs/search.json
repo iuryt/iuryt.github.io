@@ -4,20 +4,62 @@
     "href": "blog.html",
     "title": "My Blog",
     "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\nNo matching items"
+    "text": "Storing an Obsidian vault on GitHub\n\n\n\n\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nTrying Quarto\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Iury Simoes-Sousa",
     "section": "",
-    "text": "My name is Iury T. Simoes-Sousa (pt-br: Iury Tércio Simões de Sousa). My name is pronounced as the Russian yuri (YOO-ree). I am an oceanographer and computational scientist.\nI was born in Fortaleza in Northeast Brazil, but I currently live in New Bedford. I am a last-year Ph.D. candidate in Computational Science and Engineering at University of Massachusetts Dartmouth, where I apply different data analysis methods and modeling to investigate ocean and atmosphere dynamics. Check my full list of published papers on the link at the top.\nMy main scientific interests are air-sea coupling and interaction, biophysical processes, and the transfer of energy between motions on different spatial and temporal scales.\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders. By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive change."
+    "text": "Hi!\nMy name is Iury T. Simoes-Sousa (pt-br: Iury Tércio Simões de Sousa). My name is pronounced as the Russian yuri (YOO-ree). I am an oceanographer and computational scientist.\nI was born in Fortaleza in Northeast Brazil, but I currently live in New Bedford. I am a last-year Ph.D. candidate in Computational Science and Engineering at University of Massachusetts Dartmouth, where I apply different data analysis methods and modeling to investigate ocean and atmosphere dynamics. Check my full list of published papers on the link at the top.\nMy main scientific interests are air-sea coupling and interaction, biophysical processes, and the transfer of energy between motions on different spatial and temporal scales.\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders. By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive change."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-1-create-a-new-repository-on-github",
+    "href": "posts/obsidian-github/index.html#step-1-create-a-new-repository-on-github",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 1: Create a new repository on GitHub",
+    "text": "Step 1: Create a new repository on GitHub\nThe first step is to create an empty repository on GitHub. Go to GitHub and create a new repository."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-2-clone-the-repository-to-your-local-machine",
+    "href": "posts/obsidian-github/index.html#step-2-clone-the-repository-to-your-local-machine",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 2: Clone the repository to your local machine",
+    "text": "Step 2: Clone the repository to your local machine\nOnce you have created the repository on GitHub, you need to clone it to your local machine. Open your terminal and navigate to the directory where you want to place your Obsidian vault. Then, run the following command:\ngit clone <repository URL>"
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-3-copy-your-obsidian-vault-to-the-repository",
+    "href": "posts/obsidian-github/index.html#step-3-copy-your-obsidian-vault-to-the-repository",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 3: Copy your Obsidian vault to the repository",
+    "text": "Step 3: Copy your Obsidian vault to the repository\nIf you already have an Obsidian vault set up, you can copy all files and folders to the local repository. You can do this by running the following command:\ncp -r <path/to/existing/vault> <path/to/repository>\nIf you do not have an Obsidian vault set up yet, you can create one at the repository folder."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-4-sync-your-local-repository-with-github",
+    "href": "posts/obsidian-github/index.html#step-4-sync-your-local-repository-with-github",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 4: Sync your local repository with GitHub",
+    "text": "Step 4: Sync your local repository with GitHub\nOnce you have copied your Obsidian vault to the local repository, you need to sync it with GitHub. Run the following commands:\ncd <path/to/repository>\ngit add .\ngit commit -m \"Initial commit\"\ngit push origin main\nThese commands will add all the files in the repository to the staging area, create a commit with the message “Initial commit,” and push the changes to the main branch on GitHub."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-5-set-up-automatic-syncing-with-cron",
+    "href": "posts/obsidian-github/index.html#step-5-set-up-automatic-syncing-with-cron",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 5: Set up automatic syncing with cron",
+    "text": "Step 5: Set up automatic syncing with cron\nNow that your Obsidian vault is in the repository, you need to set up automatic syncing with cron. Cron is a UNIX utility that allows you to schedule tasks to run at specific intervals. If you have more questions on how to install and configure cron, you can follow this tutorial. To set up cron, run the following command:\ncrontab -e\nThis will open the crontab file in the default text editor. Add the following line to the file:\n*/5 * * * * cd <path/to/repository> && git pull && git add . && git commit -m \"Automatic update\" && git push origin main\nThis command will sync your local repository with the GitHub repository every 5 minutes. You can change the interval by replacing the “/5” with a different value. For example, “/10” would sync every 10 minutes, and “0 * * * *” would sync every hour."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#step-6-verify-that-everything-is-working",
+    "href": "posts/obsidian-github/index.html#step-6-verify-that-everything-is-working",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Step 6: Verify that everything is working",
+    "text": "Step 6: Verify that everything is working\nTo verify that your Obsidian vault you can make some changes on a note and wait cron to run the command and check it updated on GitHub."
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Trying Quarto",
     "section": "",
-    "text": "I plan to post here my thoughts about Science, Technology and Music."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
   }
 ]
