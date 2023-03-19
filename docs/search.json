@@ -9,9 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Iury Simoes-Sousa",
+    "title": "Iury  Simoes-Sousa",
     "section": "",
-    "text": "Hi!\nMy name is Iury T. Simoes-Sousa (pt-br: Iury Tércio Simões de Sousa). My name is pronounced as the Russian yuri (YOO-ree). I am a computational oceanographer whose research focuses on understanding the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes. I am currently finishing my Ph.D. in Computational Sciences and Engineering at University of Massachusetts Dartmouth.\nI have an Oceanography and Computer Science background, which allows me to combine my passion for Earth sciences with state-of-the-art computational tools. Through my work, I strive to develop and apply models that simulate the complex interactions between oceanic physical processes, such as vortices of different scales, and their impacts on biogeochemical variables and climate.\nIn particular, I am interested in studying how meso and submesoscale vortices affect the development of planktonic communities and how oceanic variability influences extreme weather events on the continent. Additionally, I investigate the interaction between physical processes, such as how vortices can group internal waves that break and generate mixing in the interior ocean. I use cutting-edge computational tools to analyze and visualize observational data, as well as to develop new methods and tools for data analysis and visualization.\nI am also passionate about educational and diversity projects. As a scientist, I believe in making my research accessible to a broader audience and promoting diversity in STEM. To this end, I am committed to developing outstanding courses that find creative ways to teach computational oceanography in underprivileged universities and communities. I believe everyone should have the opportunity to learn about the exciting world of oceanography and its vital role in understanding our planet.\nThrough my research and educational efforts, I aim to contribute to a better understanding of our planet’s complex systems and to inspire the next generation of scientists and leaders. In addition, I am committed to collaborating with fellow researchers and sharing my knowledge and expertise with students and the wider community.\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders. By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive change."
+    "text": "Hi!\nMy name is Iury T. Simoes-Sousa (pt-br: Iury Tércio Simões de Sousa). My name is pronounced as the Russian yuri (YOO-ree).\nI am a computational oceanographer whose research focuses on understanding the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes. I am currently finishing my Ph.D. in Computational Sciences and Engineering at University of Massachusetts Dartmouth.\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders. By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive change."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Iury  Simoes-Sousa",
+    "section": "Education",
+    "text": "Education\nUniversity of Massachusetts Dartmouth  New Bedford, MA, USA\nPh.D. in Computational Sciences and Engineering  Sep 2019 - Currently\nUniversity of São Paulo  São Paulo, Brazil\nMSc. in Physical Oceanography  Feb 2015 - July 2017\nFederal University of Ceará  Fortaleza, Brazil\nBSc. in Interdisciplinary Oceanography  Jan 2011 - Dez 2014"
   },
   {
     "objectID": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
@@ -26,5 +33,12 @@
     "title": "Trying Quarto",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research and Teaching",
+    "section": "",
+    "text": "I am interested in studying how meso and submesoscale vortices affect the development of planktonic communities and how oceanic variability influences extreme weather events on the continent. Additionally, I investigate the interaction between physical processes, such as how vortices can group internal waves that break and generate mixing in the interior ocean. I use cutting-edge computational tools to analyze and visualize observational and model data, as well as to develop new methods and tools for data analysis and visualization.\nI am also passionate about educational and diversity projects. As a scientist, I believe in making my research accessible to a broader audience and promoting diversity in STEM. To this end, I am committed to developing outstanding courses that find creative ways to teach computational oceanography in underprivileged universities and communities. I believe everyone should have the opportunity to learn about the exciting world of oceanography and its vital role in understanding our planet.\nThrough my research and educational efforts, I aim to contribute to a better understanding of our planet’s complex systems and to inspire the next generation of scientists and leaders. In addition, I am committed to collaborating with fellow researchers and sharing my knowledge and expertise with students and the wider community.\n\nPublications"
   }
 ]
