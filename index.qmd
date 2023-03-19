@@ -27,7 +27,7 @@ about:
 
 Hi!
 
-My name is **Iury T. Simoes-Sousa** ([pt-br](https://en.wikipedia.org/wiki/Brazilian_Portuguese): Iury Tércio Simões de Sousa). My name is pronounced as the Russian yuri (YOO-ree). 
+I am **Iury Simoes-Sousa** ([pt-br](https://en.wikipedia.org/wiki/Brazilian_Portuguese): Iury Tércio Simões de Sousa). My first name is pronounced as the Russian yuri (YOO-ree). 
 
 I am a **computational oceanographer** whose research focuses on understanding the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes. I am currently finishing my Ph.D. in Computational Sciences and Engineering at University of Massachusetts Dartmouth.
 

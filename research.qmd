@@ -13,4 +13,4 @@ Through my research and educational efforts, I aim to contribute to a better und
 
 <br>
 
-<script src="https://bibbase.org/show?bib=https://iuryt.github.io/pubs.bib&jsonp=1&theme=dividers"></script>
+<script src="https://bibbase.org/show?bib=https://iuryt.github.io/pubs.bib&jsonp=1&theme=default"></script>
