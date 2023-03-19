@@ -17,7 +17,7 @@ website:
       - icon: github
         href: https://github.com/iuryt
   google-analytics: <Insert your ID here>
-  cookie-consent: true
+  cookie-consent: false
 
 
 format:
