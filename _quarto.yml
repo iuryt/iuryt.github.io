@@ -24,6 +24,7 @@ format:
   html:
     theme: sandstone
     mainfont: serif
+    linkcolor: Orchid
 
 comments:
   giscus:
