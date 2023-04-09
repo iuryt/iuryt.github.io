@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/colab-github/index.html",
       "/posts/obsidian-github/index.html",
       "/posts/welcome/index.html"
     ]

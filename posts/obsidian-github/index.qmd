@@ -8,7 +8,7 @@ toc-location: left
 fig-align: center
 ---
 
-![](obsidian-github.png){width=50%}
+![](obsidian-github.png){height=150}
 
 # Introduction
 

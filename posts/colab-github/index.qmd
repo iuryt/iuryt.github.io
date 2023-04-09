@@ -1,0 +1,190 @@
+---
+title: "Integrating Google Colab and GitHub"
+author: "Iury Simoes-Sousa"
+date: "2023-04-09"
+categories: [[Technology]]
+toc: true
+toc-location: left
+fig-align: center
+---
+
+![](colab-github.png){height=150}
+
+
+Recently I have been studying on how to setup GitHub with Google Colab to keep track of the changes while storing code on the cloud.
+This is mainly because I am remotely advising an undergrad student that doesn't have access to computer resources and I am planning to use Google Colab as a workspace while doing the version control using git.
+To follow this tutorial, I am assuming you have a Google and a GitHub account.
+
+# Creating a repository
+
+The first thing you need is to have a repository for the project.
+On https://github.com/new you can go ahead and setup a new repository.
+In this example it will be a public repository, but the same works for private ones.
+
+![](step1.png){width=100%}
+
+For this example, I am adding a `README.md` file, a `.gitignore` based on a Python template under `MIT License`. Once you created the repository, we now need to make sure we can access it by Google Colab environment.
+
+# Setting up a fine-grained access token on GitHub
+
+Now we need a **token**. Private access tokens are **special passwords** that you can configure to have **different permissions** to your account on GitHub. On GitHub website, click on **settings** on the menu bar that shows up after clicking your profile photo.
+
+![](step2.png){width=100%}
+Now scroll down the left side bar and click on **Developer settings** and then click on **Fine-grained tokens** under **Personal access tokens**.
+
+![](step3.png){width=100%}
+
+This will open a new tab and you will be able to see a button for creating a new token. For this example, I am setting up this token for 30 days and selecting this repository only. (For repositories under an organization, **change the resource owner** to the organization where the repository is stored.)
+
+![](step4.png){width=100%}
+
+For **Repository permissions**, change the access to the **Contents** to **Read and Write**.
+
+![](step5.png){width=100%}
+
+Now scroll down and click in **Generate token**. This will show you the list of tokens and you will be able to copy this one.
+
+![](step6.png){width=100%}
+
+Now we can go to **Google Drive** to setup our workspace and git commands.
+
+# Setting up Google Drive and Colab
+
+On Google Drive, setup a folder for your repositories. In my case, I created a folder called **Shared**. Now create a new **Google Colab** file in this folder. This colab file will run the git commands. In my case, I am calling it **Git.ipynb**.
+
+The fist cell of this notebook will **mount** your **Google Drive**
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+The next cell will **clone** the **repository** and **configure** the **global variables** for git.
+
+```python
+import os
+import subprocess
+
+# Repository name
+repository = "ColabTesting"
+
+# Base path
+base = "/content/drive/MyDrive/Shared"
+
+# Specify the folder path
+folder_path = f"{base}/{repository}"  # Change this to the desired folder path
+
+# Username
+username = "<your-username>"
+
+# User email
+email = "<your-email>"
+
+# Full name
+name = "<your-full-name>"
+
+# Token
+token = "<token>"
+
+# Owner
+owner = username
+
+# Move to the repository folder
+%cd {base}
+
+# Check if folder exists
+if not os.path.exists(folder_path):
+    clone_url = f'https://{username}:{token}@github.com/{owner}/{repository}.git'
+    # Clone repository from GitHub
+    !git clone {clone_url}
+else:
+    print(f"Folder '{folder_path}' already exists.")
+
+# Move to folder
+%cd {folder_path}
+
+!git pull
+
+# Update .gitconfig using subprocess
+subprocess.run(['git', 'config', '--global', 'user.email', email], check=True)
+subprocess.run(['git', 'config', '--global', 'user.name', name], check=True)
+```
+
+The following cells are for git commands.
+
+**Pulling changes from remote:**
+```python
+!git pull
+```
+**Checking the status:**
+```python
+!git status
+```
+**Staging all local changes:**
+```python
+!git add --all
+```
+**Comment on the changes:**
+```python
+!git commit -m "Update"
+```
+**Push it back to remote:**
+```python
+!git push
+```
+
+# Testing the workflow
+
+Now you have a new folder on the google drive. Let try to create a notebook there and test the git workflow.
+
+![](step7.png){width=80%}
+
+Now we can come back to **Git.ipynb** and run the whole notebook. It will bypass the clone command, pull changes from remote, stage this change, comment and push it back to remote.
+
+In my case, the first `!git status` returned:
+```bash
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+	(use "git add <file>..." to include in what will be committed)
+	Test_Notebook.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+`!git commit -m "Update"` retuned:
+
+```bash
+[main 52968bb] Update
+1 file changed, 1 insertion(+)
+create mode 100644 Test_Notebook.ipynb
+```
+
+The second `!git status` returned:
+
+```bash
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+	(use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+```
+
+And the `!git push` returned:
+
+```bash
+Enumerating objects: 4, done. 
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 501 bytes | 125.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To [https://github.com/iuryt/ColabTesting.git](https://github.com/iuryt/ColabTesting.git) 
+	dfaaaea..52968bb main -> main
+```
+
+Now, everytime you make a change in the repository, you come back to this file and run the git commands.
+
+**Please, let me know in the comments below if this tutorial helped you, that means a lot to me and helps me keeping motivated while posting here.**
