@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iuryt.github.io/blog.html</loc>
-    <lastmod>2023-04-09T22:40:07.721Z</lastmod>
+    <lastmod>2023-04-10T15:57:00.827Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/index.html</loc>
-    <lastmod>2023-04-09T22:40:10.656Z</lastmod>
+    <lastmod>2023-04-10T15:57:02.231Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
-    <lastmod>2023-04-09T22:40:14.427Z</lastmod>
+    <lastmod>2023-04-10T15:57:04.565Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
-    <lastmod>2023-04-09T22:40:16.959Z</lastmod>
+    <lastmod>2023-04-10T15:57:06.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/presentations-cookbook/index.html</loc>
+    <lastmod>2023-04-10T15:57:09.072Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-04-09T22:40:19.060Z</lastmod>
+    <lastmod>2023-04-10T15:57:10.728Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/research.html</loc>
-    <lastmod>2023-04-09T22:40:23.684Z</lastmod>
+    <lastmod>2023-04-10T15:57:12.401Z</lastmod>
   </url>
 </urlset>
