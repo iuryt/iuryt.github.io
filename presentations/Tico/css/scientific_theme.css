@@ -1,0 +1,73 @@
+/* Theme Name: Simple Scientific
+   Author: OpenAI
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Serif:400,700&display=swap');
+
+/* Fonts */
+.advanced-slides {
+  font-family: 'Noto Serif', serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+
+.hr {
+    border-bottom: 2px solid #364fc7;
+    margin-top: 2px;
+    width: 60%;
+}
+
+/* Color Scheme */
+.advanced-slides {
+  background-color: #F8F8F8;
+  color: #1F1F1F;
+}
+
+h1, h2 {
+  color: #364fc7;
+}
+
+h3 {
+    color: #862e9c;
+}
+
+h4 {
+    color: #087f5b;
+}
+
+a {
+  color: #862e9c;
+}
+
+a:hover {
+  color: #862e9c;
+}
