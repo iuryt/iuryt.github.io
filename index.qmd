@@ -29,17 +29,19 @@ Hi!
 
 I am **Iury Simoes-Sousa** ([pt-br](https://en.wikipedia.org/wiki/Brazilian_Portuguese): Iury Tércio Simões de Sousa). My first name is pronounced as the Russian yuri (YOO-ree). 
 
-I am a **computational oceanographer** whose research focuses on understanding the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes. I am currently finishing my Ph.D. in Computational Sciences and Engineering at University of Massachusetts Dartmouth.
+I am a **computational oceanographer** whose research focuses on using high-performance computational methods for addressing interdisciplinary questions in marine sciences.
+More recently, I've been studying the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes.
+I am currently a Postdoctoral Investigator at the Woods Hole Oceanographic Institution.
 
 In the free time, I love playing accordion, dancing [Forró](https://en.wikipedia.org/wiki/Forr%C3%B3), studying history and hiking.
 I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passionate about promoting understanding and raising awareness around rare genetic disorders. 
-By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive change.
+By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive societal changes.
 
 ## Education
 
 **University of Massachusetts Dartmouth** <br> New Bedford, MA, USA
 
-Ph.D. in Computational Sciences and Engineering <br> *Sep 2019 - Currently*
+Ph.D. in Computational Sciences and Engineering <br> *Aug 2019 - Aug 2023*
 
 
 **University of São Paulo** <br> São Paulo, Brazil
