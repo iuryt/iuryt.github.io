@@ -49,13 +49,6 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
   },
   {
-    "objectID": "presentations/Tico/plugin/menu/CONTRIBUTING.html",
-    "href": "presentations/Tico/plugin/menu/CONTRIBUTING.html",
-    "title": "iuryt",
-    "section": "",
-    "text": "When reporting a bug make sure to include information about which browser and operating system you are on as well as the necessary steps to reproduce the issue. If possible please include a link to a sample presentation where the bug can be tested.\n\n\n\n\nShould follow the coding style of the file you work in\nShould be made towards the dev branch\nShould be submitted from a feature/topic branch (not your master)"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research and Teaching",

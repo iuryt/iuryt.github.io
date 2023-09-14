@@ -15,9 +15,6 @@ about:
     - icon: researchgate
       text: ResearchGate
       href: https://www.researchgate.net/profile/Iury-T-Simoes-Sousa
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/iurytss
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/iury-tercio-simoes-sousa-06179615a/
