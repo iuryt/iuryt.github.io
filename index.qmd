@@ -1,13 +1,13 @@
 ---
 title: Iury <br> Simoes-Sousa
-image: profile.png
+image: profile.jpg
 format:
   html:
     mainfont: serif
 about:
   template: trestles
   image-shape: round
-  image-width: 10em
+  image-width: 13em
   links:
     - icon: github
       text: Github
@@ -22,30 +22,11 @@ about:
 
 
 
-Hi!
+## About me
 
-I am **Iury Simoes-Sousa** ([pt-br](https://en.wikipedia.org/wiki/Brazilian_Portuguese): Iury Tércio Simões de Sousa). My first name is pronounced as the Russian yuri (YOO-ree). 
+I'm a **Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools and methods in Big Data scientific issues in Marine Sciences.
 
-I am a **computational oceanographer** whose research focuses on using high-performance computational methods for addressing interdisciplinary questions in marine sciences.
-More recently, I've been studying the interactions between ocean physics of different scales and their impacts on biogeochemical and atmospheric processes.
-I am currently a Postdoctoral Investigator at the Woods Hole Oceanographic Institution.
+Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017) and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023). 
 
 In the free time, I love playing accordion, dancing [Forró](https://en.wikipedia.org/wiki/Forr%C3%B3), studying history and hiking.
 I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passionate about promoting understanding and raising awareness around rare genetic disorders. 
-By sharing my personal experience, I hope to inspire others to embrace their unique identities, build resilience, and advocate for positive societal changes.
-
-## Education
-
-**University of Massachusetts Dartmouth** <br> New Bedford, MA, USA
-
-Ph.D. in Computational Sciences and Engineering <br> *Aug 2019 - Aug 2023*
-
-
-**University of São Paulo** <br> São Paulo, Brazil
-
-MSc. in Physical Oceanography <br> *Feb 2015 - July 2017*
-
-
-**Federal University of Ceará** <br> Fortaleza, Brazil
-
-BSc. in Interdisciplinary Oceanography <br> *Jan 2011 - Dez 2014* 

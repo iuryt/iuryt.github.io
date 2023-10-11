@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iuryt.github.io/blog.html</loc>
-    <lastmod>2023-09-14T12:51:41.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/index.html</loc>
-    <lastmod>2023-09-14T12:51:43.549Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
-    <lastmod>2023-09-14T12:51:45.982Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
-    <lastmod>2023-09-14T12:51:48.167Z</lastmod>
+    <loc>https://iuryt.github.io/research.html</loc>
+    <lastmod>2023-10-11T19:18:56.322Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/presentations-cookbook/index.html</loc>
-    <lastmod>2023-09-14T12:51:50.002Z</lastmod>
+    <lastmod>2023-10-11T19:18:51.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
+    <lastmod>2023-10-11T19:18:45.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/blog.html</loc>
+    <lastmod>2023-10-11T19:18:38.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/index.html</loc>
+    <lastmod>2023-10-11T19:18:41.356Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
+    <lastmod>2023-10-11T19:18:48.329Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-09-14T12:51:51.812Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/research.html</loc>
-    <lastmod>2023-09-14T12:51:53.893Z</lastmod>
+    <lastmod>2023-10-11T19:18:53.673Z</lastmod>
   </url>
 </urlset>
