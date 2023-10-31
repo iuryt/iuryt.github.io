@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iuryt.github.io/research.html</loc>
-    <lastmod>2023-10-30T18:32:20.800Z</lastmod>
+    <loc>https://iuryt.github.io/slides/vortices.html</loc>
+    <lastmod>2023-10-31T04:03:01.075Z</lastmod>
   </url>
   <url>
-    <loc>https://iuryt.github.io/posts/presentations-cookbook/index.html</loc>
-    <lastmod>2023-10-30T18:32:15.733Z</lastmod>
+    <loc>https://iuryt.github.io/slides/mesoscale.html</loc>
+    <lastmod>2023-10-31T04:02:43.439Z</lastmod>
   </url>
   <url>
-    <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
-    <lastmod>2023-10-30T18:32:09.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/blog.html</loc>
-    <lastmod>2023-10-30T18:32:02.059Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/index.html</loc>
-    <lastmod>2023-10-30T18:32:04.646Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
-    <lastmod>2023-10-30T18:32:12.969Z</lastmod>
+    <loc>https://iuryt.github.io/slides/airsea.html</loc>
+    <lastmod>2023-10-31T04:02:26.099Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-10-30T18:32:18.280Z</lastmod>
+    <lastmod>2023-10-31T04:02:17.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
+    <lastmod>2023-10-31T04:02:11.659Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/index.html</loc>
+    <lastmod>2023-10-31T04:02:04.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/blog.html</loc>
+    <lastmod>2023-10-31T04:02:02.273Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
+    <lastmod>2023-10-31T04:02:08.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/presentations-cookbook/index.html</loc>
+    <lastmod>2023-10-31T04:02:14.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/publications.html</loc>
+    <lastmod>2023-10-31T04:02:19.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/manatees.html</loc>
+    <lastmod>2023-10-31T04:02:34.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/rotating.html</loc>
+    <lastmod>2023-10-31T04:02:52.073Z</lastmod>
   </url>
 </urlset>

@@ -10,8 +10,8 @@ website:
   description: "This is iury's personal Blog."
   navbar:
     right:
-      - text: Research / Teaching
-        href: research.qmd
+      - text: Publications
+        href: publications.qmd
       - text: Blog
         href: blog.qmd 
       - icon: github
@@ -24,7 +24,7 @@ format:
   html:
     theme: sandstone
     mainfont: serif
-    linkcolor: Orchid
+    linkcolor: '#167D7F'
 
 comments:
   giscus:

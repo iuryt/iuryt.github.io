@@ -1,0 +1,22 @@
+---
+format:
+  revealjs:
+    autoSlide: 5000
+    loop: true
+    controls: true
+    progress: false
+    transition: slide
+---
+
+
+## 
+![](../img/research/tico1.png)
+
+## 
+![](../img/research/tico2.png)
+
+## 
+![](../img/research/tico3.png)
+
+## 
+![](../img/research/tico4.png)

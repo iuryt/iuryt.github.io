@@ -1,0 +1,19 @@
+---
+format:
+  revealjs:
+    autoSlide: 5000
+    loop: true
+    controls: true
+    progress: false
+    transition: slide
+---
+
+
+## 
+![](../img/research/rotating1.png)
+
+## 
+![](../img/research/rotating2.png)
+
+## 
+![](../img/research/rotating3.png)

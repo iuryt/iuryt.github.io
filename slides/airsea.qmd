@@ -1,0 +1,28 @@
+---
+format:
+  revealjs:
+    autoSlide: 5000
+    loop: true
+    controls: true
+    progress: false
+    transition: slide
+---
+
+
+## 
+![](../img/research/coldpool1.jpg)
+
+## 
+![](../img/research/coldpool2.jpg)
+
+## 
+![](../img/research/coldpool3.jpg)
+
+## 
+![](../img/research/coldpool4.jpg)
+
+## 
+![](../img/research/bams1.jpg)
+
+## 
+![](../img/research/bams2.jpg)

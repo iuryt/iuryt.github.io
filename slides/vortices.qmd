@@ -1,0 +1,23 @@
+---
+format:
+  revealjs:
+    autoSlide: 5000
+    loop: true
+    controls: true
+    progress: false
+    transition: slide
+---
+
+
+## 
+![](../img/research/turbulence.png)
+
+## 
+![](../img/research/mle0.jpg)
+
+## 
+![](../img/research/mle1.jpg)
+
+## 
+![](../img/research/mle2.jpg)
+
