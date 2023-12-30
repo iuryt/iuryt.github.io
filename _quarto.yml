@@ -11,7 +11,7 @@ website:
   navbar:
     right:
       - text: CV
-        href: https://iuryt.github.io/CV.pdf
+        href: https://iuryt.github.io/resume/CV.pdf
       - text: Publications
         href: publications.qmd
       - text: Blog
