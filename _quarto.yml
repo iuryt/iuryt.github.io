@@ -28,6 +28,6 @@ format:
     mainfont: serif
     linkcolor: '#167D7F'
 
-comments:
-  giscus:
-    repo: iuryt/iuryt.github.io
+#comments:
+#  giscus:
+#    repo: iuryt/iuryt.github.io
