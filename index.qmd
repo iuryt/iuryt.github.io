@@ -29,7 +29,7 @@ about:
 
 ## About me
 
-I'm a **Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools and methods in Big Data scientific issues in Marine Sciences.
+I'm a **Physical and Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools and methods in Big Data scientific issues in Physical Oceanography.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017) and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023). 
 
@@ -40,7 +40,7 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passio
 
 ### Overview
 
-I am interested in studying how ocean physics affect the ocean biology and how oceanic variability influences extreme weather and climate events on the continent.
+As a physical oceanographer, I dedicate my career to studying the interactions between subgrid-scale ocean processes and their impact on large-scale climate predictions. My main focus is on investigating the complex interactions in the upper ocean, where phenomena such as vortices, fronts, and internal waves play a vital role in local variability. Moreover, my work also encompasses a range of interdisciplinary aspects, for example, smaller-scale processes fundamental for understanding the transport and mixing of biogeochemical properties, especially at submesoscales. Another example are the multiscale air-sea interactions, which are emerging as keys to improving our understanding of the physics of the formation and evolution of atmospheric storms.
 
 In the confluence of Data Science and Interdisciplinary Oceanography, I use cutting-edge computational tools to analyze and visualize observational and model data, as well as to develop new methods and tools for data analysis and visualization.
 
@@ -49,14 +49,6 @@ I am also passionate about educational and diversity projects. As a scientist, I
 I am committed to collaborating with fellow researchers and sharing my knowledge and expertise with students and the wider community.
 
 Below, I list some of the research topics I have worked on.
-
-#### Understanding the role of ocean and atmospheric variables on the West Indian manatee conservation
-
-This research topic started with the study on Tico's journey: the longest distance traveled by a released West Indian manatee. The project entailed a collaborative effort with AQUASIS.
-Tico's story has been explored on my [Feature Stories](https://www.umassd.edu/feature-stories/2023/iury-simoes-sousa.html) interview and [BBC News](https://www.bbc.com/news/world-latin-america-62792026), providing a broader perspective on the studied subject.
-For those interested in the technical details, the code has been made available on [GitHub](https://github.com/iuryt/tico_peixeboi).
-
-<iframe src="slides/manatees.html" width="100%" height="500px"></iframe>
 
 #### Combination of multiscale oceanographic datasets for investigating ocean dynamics
 
@@ -80,6 +72,14 @@ Projects on understanding air-sea interactions in the Indian Ocean and their rel
 
 <iframe src="slides/airsea.html" width="100%" height="500px"></iframe>
 
+
+#### Understanding the role of ocean and atmospheric variables on the West Indian manatee conservation
+
+This research topic started with the study on Tico's journey: the longest distance traveled by a released West Indian manatee. The project entailed a collaborative effort with AQUASIS.
+Tico's story has been explored on my [Feature Stories](https://www.umassd.edu/feature-stories/2023/iury-simoes-sousa.html) interview and [BBC News](https://www.bbc.com/news/world-latin-america-62792026), providing a broader perspective on the studied subject.
+For those interested in the technical details, the code has been made available on [GitHub](https://github.com/iuryt/tico_peixeboi).
+
+<iframe src="slides/manatees.html" width="100%" height="500px"></iframe>
 
 
 #### Teaching and understanding ocean physics through rotating-tank lab experiments

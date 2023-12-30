@@ -10,10 +10,12 @@ website:
   description: "This is iury's personal Blog."
   navbar:
     right:
+      - text: CV
+        href: https://iuryt.github.io/CV.pdf
       - text: Publications
         href: publications.qmd
       - text: Blog
-        href: blog.qmd 
+        href: blog.qmd
       - icon: github
         href: https://github.com/iuryt
   google-analytics: <Insert your ID here>

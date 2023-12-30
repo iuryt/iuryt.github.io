@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Trying Quarto",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
-  },
-  {
-    "objectID": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
-    "href": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
-    "title": "Storing an Obsidian vault on GitHub",
-    "section": "Why integrate Obsidian with GitHub?",
-    "text": "Why integrate Obsidian with GitHub?\nRecently I started using Obsidian to organize my notes. What I love most about this software is that everything is in Markdown, which not only makes it easy to access and port to other tools, but I am also free to make my own code in Python or other languages to interact with the notes. If you are curious about Obsidian, there are several tutorials on the internet for you to learn how to use it.\nObsidian is a great note-taking app that uses Markdown, making it easy to access and port your notes to other tools. However, Obsidian charges a fee for synchronization between different devices. One way to work around this is to use a storage service like Dropbox, Google Drive, or OneDrive. However, if you want to mix code and tutorials with your notes or are concerned about different versions of your notes, integrating with GitHub is a good alternative. GitHub allows you to store your notes on its platform and also provides version control, which means you can keep track of all changes made to your notes."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Iury  Simoes-Sousa",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     ResearchGate\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Lattes\n  \n\n  \n  \n\n\nI’m a Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools and methods in Big Data scientific issues in Marine Sciences.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Iury  Simoes-Sousa",
-    "section": "",
-    "text": "I’m a Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools and methods in Big Data scientific issues in Marine Sciences.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "Cookbook for nice scientific presentations\n\n\n\n\n\n\n\nScience\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nIntegrating Google Colab and GitHub\n\n\n\n\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n\n\nApr 9, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nStoring an Obsidian vault on GitHub\n\n\n\n\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nTrying Quarto\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/colab-github/index.html",
     "href": "posts/colab-github/index.html",
     "title": "Integrating Google Colab and GitHub",
@@ -47,5 +12,40 @@
     "title": "Cookbook for nice scientific presentations",
     "section": "",
     "text": "This post is a work in progress and will be updated every time I remember something new or have new good tips to add. The idea is to make a cookbook with examples and counter-examples for preparing good scientific presentations, but for now I will simply list what I personally consider good practices for preparing a good presentation. This is a compilation of my own opinions, tips that I have received from various people and sources that I have not yet organized in a systematic way, i.e. it is not restricted to my own ideas, but ideas that I have also collected throughout my still short academic career.\n\nOn the first slide you must make clear the topic of the presentation, authors, funding agencies, and affiliated institutions. The funding agencies can also be on the acknowledgements slide. You can also add a summary image that gives a graphic idea of the object of study, but it is not essential.\nPrefer a white background, but you can use color design for sidebars, top or bottom.\nAlways number your slides. This is extremely important to help people elaborate and reference the questions at the end of the presentation.\nUse a color code for different context. For example, standard text can be in black with some bold. Important things in red and quotes in green. This can help people identify the main points without having to read the whole text.\nAfter the title slide you can have a short slide to introduce yourself. This is especially important for early-career scientists. You can list your projects, collaborations, scientific interests, and even comment on some hobbies that you have. This is a good opportunity to connect with the audience, so you can mention something that connects you to the place you are presenting or to people in the audience.\nAfter that you can have an outline slide, which gives a general idea of the path you will take with the audience. While not mandatory, it can help the audience understand the order and logic of the presentation, but don’t go into too much detail. It is just to give an idea.\nI like to start the presentation itself with a slide that has minimal text and an image that takes up much of the space. This image should impact the audience and give a visual sense of the object of study. For example, I often start the presentation of my work on phytoplankton blooms with an image of trees in springtime bloom in the continent. Right after I present a satellite image of phytoplankton blooms in the open ocean. This usually has an impact and makes it clear up front that the main topic of the paper is spring blooms and that, despite the differences, they also occur in the ocean.\nDo your best to explicitly present the scientific questions. The central goal of the introduction is to try as much as possible to make the audience almost predict these questions, i.e. to make clear what has not yet been investigated and its importance.\nFor content slides, I generally start building the slide with an image and add text only for what the image does not say by itself, or for things that I want to emphasize in the image. This prevents the slides from having too much text.\nPlease explicitly explain what is being presented in the figures, their axes, colors, units, etc..\nTowards the end of each section, you can remind the audience what we learned from those analyses. Not everything will seem obvious to those watching, so it’s important to make that explicit.\nPrepare a good question or statement for the last slide. Avoid ending with an explicit thank you. The idea is to make the audience want to learn more about the subject, so try to stimulate their curiosity with a last message.\n\nI wrote this post in just a few minutes and with all certainty I know I am leaving out most of the complexity surrounding this topic. Over time I plan to populate and update this post with new ideas, but if you have any other ideas that you don’t see covered here, you can also post them in the comments here below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Iury  Simoes-Sousa",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     ResearchGate\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Lattes\n  \n\n  \n  \n\n\nI’m a Physical and Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools and methods in Big Data scientific issues in Physical Oceanography.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Iury  Simoes-Sousa",
+    "section": "",
+    "text": "I’m a Physical and Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools and methods in Big Data scientific issues in Physical Oceanography.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Cookbook for nice scientific presentations\n\n\n\n\n\n\n\nScience\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nIntegrating Google Colab and GitHub\n\n\n\n\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n\n\nApr 9, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nStoring an Obsidian vault on GitHub\n\n\n\n\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n  \n\n\n\n\nTrying Quarto\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
+    "href": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Why integrate Obsidian with GitHub?",
+    "text": "Why integrate Obsidian with GitHub?\nRecently I started using Obsidian to organize my notes. What I love most about this software is that everything is in Markdown, which not only makes it easy to access and port to other tools, but I am also free to make my own code in Python or other languages to interact with the notes. If you are curious about Obsidian, there are several tutorials on the internet for you to learn how to use it.\nObsidian is a great note-taking app that uses Markdown, making it easy to access and port your notes to other tools. However, Obsidian charges a fee for synchronization between different devices. One way to work around this is to use a storage service like Dropbox, Google Drive, or OneDrive. However, if you want to mix code and tutorials with your notes or are concerned about different versions of your notes, integrating with GitHub is a good alternative. GitHub allows you to store your notes on its platform and also provides version control, which means you can keep track of all changes made to your notes."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Trying Quarto",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
   }
 ]
