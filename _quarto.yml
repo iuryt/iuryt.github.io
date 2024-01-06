@@ -7,7 +7,7 @@ project:
 website:
   title: "iuryt" 
   site-url: https://iuryt.github.io
-  description: "This is iury's personal Blog."
+  description: "This is iury's personal website."
   navbar:
     right:
       - text: CV
@@ -26,8 +26,5 @@ format:
   html:
     theme: sandstone
     mainfont: serif
-    linkcolor: '#167D7F'
+    linkcolor: '#657d9a'
 
-#comments:
-#  giscus:
-#    repo: iuryt/iuryt.github.io

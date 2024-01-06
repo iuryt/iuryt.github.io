@@ -29,7 +29,7 @@ about:
 
 ## About me
 
-I'm a **Physical and Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools and methods in Big Data scientific issues in Physical Oceanography.
+I'm a **Physical and Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools to investigate different aspects in Physical Oceanography.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017) and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023). 
 
@@ -38,7 +38,7 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passio
 
 :::
 
-### Overview
+### Research Overview
 
 As a physical oceanographer, I dedicate my career to studying the interactions between subgrid-scale ocean processes and their impact on large-scale climate predictions. My main focus is on investigating the complex interactions in the upper ocean, where phenomena such as vortices, fronts, and internal waves play a vital role in local variability. Moreover, my work also encompasses a range of interdisciplinary aspects, for example, smaller-scale processes fundamental for understanding the transport and mixing of biogeochemical properties, especially at submesoscales. Another example are the multiscale air-sea interactions, which are emerging as keys to improving our understanding of the physics of the formation and evolution of atmospheric storms.
 
