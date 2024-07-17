@@ -1,0 +1,8 @@
+---
+title: "Publications"
+---
+
+
+<br>
+
+<script src="https://bibbase.org/show?bib=https://iuryt.github.io/pubs.bib&jsonp=1&theme=default"></script>
