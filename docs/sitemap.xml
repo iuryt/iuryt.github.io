@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iuryt.github.io/publications.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
-  </url>
-  <url>
     <loc>https://iuryt.github.io/posts/colab-github/index.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/blog.html</loc>
-    <lastmod>2024-07-18T13:44:03.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/slides/airsea.html</loc>
-    <lastmod>2024-07-18T13:44:03.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/slides/manatees.html</loc>
-    <lastmod>2024-07-18T13:44:03.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/slides/vortices.html</loc>
-    <lastmod>2024-07-18T13:44:03.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/slides/mesoscale.html</loc>
-    <lastmod>2024-07-18T13:44:03.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/slides/rotating.html</loc>
-    <lastmod>2024-07-18T13:44:03.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/index.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iuryt.github.io/posts/welcome/index.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
+    <lastmod>2024-01-06T01:22:48.363Z</lastmod>
   </url>
   <url>
     <loc>https://iuryt.github.io/posts/presentations-cookbook/index.html</loc>
-    <lastmod>2024-07-18T13:44:03.242Z</lastmod>
+    <lastmod>2024-01-06T01:22:47.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/index.html</loc>
+    <lastmod>2024-01-06T01:22:45.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/publications.html</loc>
+    <lastmod>2024-01-06T01:22:44.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/manatees.html</loc>
+    <lastmod>2024-01-06T01:22:43.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/rotating.html</loc>
+    <lastmod>2024-01-06T01:22:42.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/airsea.html</loc>
+    <lastmod>2024-01-06T01:22:42.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/mesoscale.html</loc>
+    <lastmod>2024-01-06T01:22:43.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/slides/vortices.html</loc>
+    <lastmod>2024-01-06T01:22:43.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/blog.html</loc>
+    <lastmod>2024-01-06T01:22:45.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/obsidian-github/index.html</loc>
+    <lastmod>2024-01-06T01:22:46.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iuryt.github.io/posts/welcome/index.html</loc>
+    <lastmod>2024-01-06T01:22:47.691Z</lastmod>
   </url>
 </urlset>
