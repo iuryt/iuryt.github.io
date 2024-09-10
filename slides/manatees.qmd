@@ -10,13 +10,13 @@ format:
 
 
 ## 
-![](../img/research/tico1.png)
+![](../img/research/tico1.png){fig-align="center"}
 
 ## 
-![](../img/research/tico2.png)
+![](../img/research/tico2.png){fig-align="center"}
 
 ## 
-![](../img/research/tico3.png)
+![](../img/research/tico3.png){fig-align="center"}
 
 ## 
-![](../img/research/tico4.png)
+![](../img/research/tico4.png){fig-align="center"}

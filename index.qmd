@@ -22,6 +22,9 @@ about:
     - icon: link
       text: Lattes
       href: http://lattes.cnpq.br/2966459341524804
+    - icon: mailbox
+      text: e-mail
+      href: mailto:iury@whoi.edu
 ---
 
 
@@ -40,9 +43,9 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passio
 
 ### Overview
 
-As a physical oceanographer, I dedicate my career to studying the interactions between subgrid-scale ocean processes and their impact on large-scale climate predictions. My main focus is on investigating the complex interactions in the upper ocean, where phenomena such as vortices, fronts, and internal waves play a vital role in local variability. Moreover, my work also encompasses a range of interdisciplinary aspects, for example, smaller-scale processes fundamental for understanding the transport and mixing of biogeochemical properties, especially at submesoscales. Another example are the multiscale air-sea interactions, which are emerging as keys to improving our understanding of the physics of the formation and evolution of atmospheric storms.
-
 In the confluence of Data Science and Interdisciplinary Oceanography, I use cutting-edge computational tools to analyze and visualize observational and model data, as well as to develop new methods and tools for data analysis and visualization.
+
+My experience has predominantly focused on ocean vortices and their impacts on climate variables, yet my work transcends traditional boundaries within Physical Oceanography. Since I started my Postdoctoral Fellowship I've been developing different projects related to regional impacts of climate change encompassing macrofauna conservation, and the study of extreme weather events.
 
 I am also passionate about educational and diversity projects. As a scientist, I believe in making my research accessible to a broader audience and promoting diversity in STEM.
 
@@ -50,12 +53,18 @@ I am committed to collaborating with fellow researchers and sharing my knowledge
 
 Below, I list some of the research topics I have worked on.
 
+#### Investigating climate impacts in the Global South
+
+I use Earth and environmental sciences theory and computational methods to understand regional impacts of climate change and how they can intensify social disparities.
+
+<iframe src="slides/applied.html" width="100%" height="500px"></iframe>
+
 #### Combination of multiscale oceanographic datasets for investigating ocean dynamics
 
 From regular satellite altimetry, to the revolutionary aircraft DopplerScatt data and SWOT mission. From regular oceanographic ocean stations and moorings to combination of seagliders, drifters and wavegliders.
 I use cutting-edge data analysis and visualization tools to understand the lifecycle of ocean vortices and how they move particles around and affect the Earth's weather and climate.
 
-<iframe src="slides/mesoscale.html" width="100%" height="500px"></iframe>
+<iframe src="slides/multiscale.html" width="100%" height="500px"></iframe>
 
 #### Modeling and understanding vortex dynamics as well as their influence on the phytoplankton dynamics
 
@@ -82,8 +91,8 @@ For those interested in the technical details, the code has been made available 
 <iframe src="slides/manatees.html" width="100%" height="500px"></iframe>
 
 
-#### Teaching and understanding ocean physics through rotating-tank lab experiments
+#### Teaching and understanding ocean physics through rotating-tank lab experiments and numerical modeling
 
-As an enthusiast of hands-on teaching experiences, I enjoy finding creative ways for teaching oceanography, such as exploring ocean circulation theory using rotating tanks.
+As an enthusiast of hands-on teaching experiences, I enjoy finding creative ways for teaching oceanography, such as exploring ocean circulation theory using rotating tanks or running idealized numerical simulations.
 
 <iframe src="slides/rotating.html" width="100%" height="500px"></iframe>

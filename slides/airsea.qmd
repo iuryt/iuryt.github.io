@@ -10,19 +10,19 @@ format:
 
 
 ## 
-![](../img/research/coldpool1.jpg)
+![](../img/research/coldpool1.jpg){fig-align="center"}
 
 ## 
-![](../img/research/coldpool2.jpg)
+![](../img/research/coldpool2.jpg){fig-align="center"}
 
 ## 
-![](../img/research/coldpool3.jpg)
+![](../img/research/coldpool3.jpg){fig-align="center"}
 
 ## 
-![](../img/research/coldpool4.jpg)
+![](../img/research/coldpool4.jpg){fig-align="center"}
 
 ## 
-![](../img/research/bams1.jpg)
+![](../img/research/bams1.jpg){fig-align="center"}
 
 ## 
-![](../img/research/bams2.jpg)
+![](../img/research/bams2.jpg){fig-align="center"}
