@@ -1,0 +1,28 @@
+---
+format:
+  revealjs:
+    autoSlide: 5000
+    loop: true
+    controls: true
+    progress: false
+    transition: slide
+---
+
+
+## 
+![Matching altimetry-tracked mesoscale vortices and vertical profiles](../img/research/multiscale1.png){fig-align="center"}
+
+## 
+![High-resolution Doppler Scatterometer and airborne sea surface temperatures](../img/research/multiscale2.png){fig-align="center"}
+
+## 
+![Tracking origin and paths of mesoscale vortices](../img/research/multiscale3.jpg){fig-align="center"}
+
+## 
+![The evolution and growth rate of mesoscale vortices](../img/research/multiscale4.jpg){fig-align="center"}
+
+## 
+![Investigating topographic submesoscale vortices close to the Equator](../img/research/multiscale5.jpg){fig-align="center"}
+
+## 
+![Time series processing and analysis of ocean moorings](../img/research/multiscale6.jpg){fig-align="center"}
