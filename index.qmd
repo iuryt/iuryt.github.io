@@ -32,7 +32,7 @@ about:
 
 ## About me
 
-I'm a **Physical and Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools to investigate different aspects in Physical Oceanography.
+I'm a **Physical and Computational Oceanographer**, currently working as a Postdoctoral Investigator at [Woods Hole Oceanographic Institution](https://https://www.whoi.edu/) focused on the use of high-performance computational tools to investigate different aspects in Ocean Sciences.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017) and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023). 
 
@@ -47,13 +47,13 @@ In the confluence of Data Science and Interdisciplinary Oceanography, I use cutt
 
 My experience has predominantly focused on ocean vortices and their impacts on climate variables, yet my work transcends traditional boundaries within Physical Oceanography. Since I started my Postdoctoral Fellowship I've been developing different projects related to regional impacts of climate change encompassing macrofauna conservation, and the study of extreme weather events.
 
-I am also passionate about educational and diversity projects. As a scientist, I believe in making my research accessible to a broader audience and promoting diversity in STEM.
+I am also passionate about educational and outreach projects. As a scientist, I believe in making my research accessible to a broader audience and promoting different perspectives in STEM.
 
 I am committed to collaborating with fellow researchers and sharing my knowledge and expertise with students and the wider community.
 
 Below, I list some of the research topics I have worked on.
 
-#### Investigating climate impacts in the Global South
+#### Investigating regional climate impacts
 
 I use Earth and environmental sciences theory and computational methods to understand regional impacts of climate change and how they can intensify social disparities.
 
