@@ -5,6 +5,6 @@ title: "Publications"
 
 <br>
 
-<script src="https://bibbase.org/show?bib=https://gist.githubusercontent.com/iuryt/22930aa71067d5e0d74ce693eabee2d0/raw/references.bib&jsonp=1&theme=default"></script>
+<script src="https://bibbase.org/show?bib=https://github.com/iuryt/iuryt.github.io/raw/main/references.bib&jsonp=1&theme=default"></script>
 
 <br>
