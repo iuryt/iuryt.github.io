@@ -27,7 +27,6 @@ about:
       href: mailto:iury@whoi.edu
 ---
 
-
 :::{#hero-heading}
 
 ## About me
@@ -41,30 +40,119 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia) and I'm passio
 
 :::
 
-### Overview
+### Science, Software, and Society
 
-In the confluence of Data Science and Interdisciplinary Oceanography, I use cutting-edge computational tools to analyze and visualize observational and model data, as well as to develop new methods and tools for data analysis and visualization.
+At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on marine conservation.
 
-My experience has predominantly focused on ocean vortices and their impacts on climate variables, yet my work transcends traditional boundaries within Physical Oceanography. Since I started my Postdoctoral Fellowship I've been developing different projects related to regional impacts of climate change encompassing macrofauna conservation, and the study of extreme weather events.
+I am passionate about uncovering scientific answers while also developing tools that empower other researchers and stakeholders to explore their own questions. My work extends beyond research, focusing on building open-source software that enhances data analysis, visualization, and accessibility for the broader scientific community.
 
-I am also passionate about educational and outreach projects. As a scientist, I believe in making my research accessible to a broader audience and promoting different perspectives in STEM.
-
-I am committed to collaborating with fellow researchers and sharing my knowledge and expertise with students and the wider community.
+I am also deeply committed to scientific outreach and education, ensuring that oceanography is accessible to a wider audience. Collaboration is at the core of my work, and I actively engage with scientists, students, and stakeholders to advance interdisciplinary ocean science and promote open, data-driven discovery.
 
 Below, I list some of the research topics I have worked on.
 
-#### Investigating regional climate impacts
+#### The Origins and Aftermath of Extreme Events
 
-I use Earth and environmental sciences theory and computational methods to understand regional impacts of climate change and how they can intensify social disparities.
+I use Earth and environmental sciences theory and computational methods to understand the causes and regional impacts of extreme events on ecosystems and human populations.
 
-<iframe src="slides/applied.html" width="100%" height="500px"></iframe>
+<div class="slideshow-container">
+
+<div class="mySlides1">
+  <img src="img/research/large_scale.png">
+  <div class="text">Investigating atmospheric blocking and extreme weather events using cloud computing</div>
+</div>
+
+<div class="mySlides1">
+  <img src="img/research/swot_depth.png">
+  <div class="text">Using SWOT mission data to estimate the volume of extreme flood events</div>
+</div>
+
+<div class="mySlides1">
+  <img src="img/research/landcover_vulnerable.png">
+  <div class="text">Combining geophysical and socioeconomic data to estimate the impacts of extreme events</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<br>
+
+
+#### Satellite Data and Ocean Models for Wildlife Conservation
+
+This research explores how oceanographic and atmospheric conditions impact the conservation of endangered species, using remote sensing and predictive modeling. The project originated with the study of Tico’s journey—the longest recorded distance traveled by a released West Indian manatee—conducted in collaboration with AQUASIS.
+This story was explored by a science communication article at [Oceanus Magazine (WHOI)](https://www.whoi.edu/oceanus/feature/saving-tico-manatee-rescue-ocean-currents-brazil/)
+For those interested in the technical details, the code has been made available on [GitHub](https://github.com/iuryt/tico_peixeboi).
+
+<div class="slideshow-container">
+
+<div class="mySlides5">
+  <img src="img/research/oceanus.png">
+  <div class="text">Saving Tico - Article at Oceanus Magazine - Illustration by Charin Park</div>
+</div>
+
+<div class="mySlides5">
+  <img src="img/research/tico1.png">
+</div>
+
+<div class="mySlides5">
+  <img src="img/research/tico2.png">
+</div>
+
+<div class="mySlides5">
+  <img src="img/research/tico3.png">
+</div>
+
+<div class="mySlides5">
+  <img src="img/research/tico4.png">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+</div>
+<br>
 
 #### Combination of multiscale oceanographic datasets for investigating ocean dynamics
 
 From regular satellite altimetry, to the revolutionary aircraft DopplerScatt data and SWOT mission. From regular oceanographic ocean stations and moorings to combination of seagliders, drifters and wavegliders.
 I use cutting-edge data analysis and visualization tools to understand the lifecycle of ocean vortices and how they move particles around and affect the Earth's weather and climate.
 
-<iframe src="slides/multiscale.html" width="100%" height="500px"></iframe>
+<div class="slideshow-container">
+
+<div class="mySlides2">
+  <img src="img/research/multiscale1.png">
+  <div class="text">Matching altimetry-tracked mesoscale vortices and vertical profiles</div>
+</div>
+
+<div class="mySlides2">
+  <img src="img/research/multiscale2.png">
+  <div class="text">High-resolution Doppler Scatterometer and airborne sea surface temperatures</div>
+</div>
+
+<div class="mySlides2">
+  <img src="img/research/multiscale3.jpg">
+  <div class="text">Tracking origin and paths of mesoscale vortices</div>
+</div>
+
+<div class="mySlides2">
+  <img src="img/research/multiscale4.jpg">
+  <div class="text">The evolution and growth rate of mesoscale vortices</div>
+</div>
+
+<div class="mySlides2">
+  <img src="img/research/multiscale5.jpg">
+  <div class="text">Investigating topographic submesoscale vortices close to the Equator</div>
+</div>
+
+<div class="mySlides2">
+  <img src="img/research/multiscale6.jpg">
+  <div class="text">Time series processing and analysis of ocean moorings</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+<br>
+
 
 #### Modeling and understanding vortex dynamics as well as their influence on the phytoplankton dynamics
 
@@ -72,27 +160,122 @@ Theoretical and interdisciplinary projects on vortex dynamics and biophysical in
 Using high-performance computers and GPU-based code for studying the relationship between the ocean physics and biology, and their impact on climate predictions.
 The code for the simulations and analyzes of one of the published papers is available on [GitHub](https://github.com/iuryt/NorthAtlanticBloom).
 
-<iframe src="slides/vortices.html" width="100%" height="500px"></iframe>
+<div class="slideshow-container">
 
+<div class="mySlides3">
+  <img src="img/research/turbulence.png">
+</div>
+
+<div class="mySlides3">
+  <img src="img/research/mle0.jpg">
+</div>
+
+<div class="mySlides3">
+  <img src="img/research/mle1.jpg">
+</div>
+
+<div class="mySlides3">
+  <img src="img/research/mle2.jpg">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+<br>
 
 #### Air-sea interaction in the Indian Ocean and its impacts on rain patterns
 
 Projects on understanding air-sea interactions in the Indian Ocean and their relationship with Monsoon Rain, both from Atmospheric Sciences and Oceanography perspectives.
 
-<iframe src="slides/airsea.html" width="100%" height="500px"></iframe>
+<div class="slideshow-container">
 
+<div class="mySlides4">
+  <img src="img/research/coldpool1.jpg">
+</div>
 
-#### Understanding the role of ocean and atmospheric variables on the West Indian manatee conservation
+<div class="mySlides4">
+  <img src="img/research/coldpool2.jpg">
+</div>
 
-This research topic started with the study on Tico's journey: the longest distance traveled by a released West Indian manatee. The project entailed a collaborative effort with AQUASIS.
-Tico's story has been explored on my [Feature Stories](https://www.umassd.edu/feature-stories/2023/iury-simoes-sousa.html) interview and [BBC News](https://www.bbc.com/news/world-latin-america-62792026), providing a broader perspective on the studied subject.
-For those interested in the technical details, the code has been made available on [GitHub](https://github.com/iuryt/tico_peixeboi).
+<div class="mySlides4">
+  <img src="img/research/coldpool3.jpg">
+</div>
 
-<iframe src="slides/manatees.html" width="100%" height="500px"></iframe>
+<div class="mySlides4">
+  <img src="img/research/coldpool4.jpg">
+</div>
+
+<div class="mySlides4">
+  <img src="img/research/bams1.jpg">
+</div>
+
+<div class="mySlides4">
+  <img src="img/research/bams2.jpg">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+</div>
+<br>
+
 
 
 #### Teaching and understanding ocean physics through rotating-tank lab experiments and numerical modeling
 
 As an enthusiast of hands-on teaching experiences, I enjoy finding creative ways for teaching oceanography, such as exploring ocean circulation theory using rotating tanks or running idealized numerical simulations.
 
-<iframe src="slides/rotating.html" width="100%" height="500px"></iframe>
+<div class="slideshow-container">
+
+<div class="mySlides6">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/research/rotating1.png">
+</div>
+
+<div class="mySlides6">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/research/rotating2.png">
+</div>
+
+<div class="mySlides6">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/research/rotating3.png">
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+</div>
+<br>
+
+
+
+<script>
+let slideIndex = [1,1,1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+
+setInterval(function() {
+  for (let j = 0; j < slideId.length; j++) {
+    plusSlides(1, j);
+  }
+}, 5000);
+</script>

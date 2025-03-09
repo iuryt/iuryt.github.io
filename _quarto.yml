@@ -27,4 +27,5 @@ format:
     theme: sandstone
     mainfont: serif
     linkcolor: '#657d9a'
+    css: styles.css
 
