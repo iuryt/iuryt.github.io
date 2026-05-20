@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "This page highlights software tools and interactive applications related to my research and scientific computing work."
+  },
+  {
+    "objectID": "software.html#where-is-swot",
+    "href": "software.html#where-is-swot",
+    "title": "Software",
+    "section": "Where is SWOT?",
+    "text": "Where is SWOT?\n\nWhere is SWOT? is an interactive app hosted on Hugging Face Spaces for exploring the location of the SWOT satellite."
+  },
+  {
+    "objectID": "software.html#tutorials-and-resources",
+    "href": "software.html#tutorials-and-resources",
+    "title": "Software",
+    "section": "Tutorials and Resources",
+    "text": "Tutorials and Resources\n\nPlotting Big Data Vector Fields with hvPlot and Xarray\nThe hvPlot tutorial on large downsampled vector fields shows how to visualize large vector-field datasets efficiently with hvplot and xarray.\n\n\nFaster Ocean Data Access with Icechunk\n\nThis Earthmover post describes how you could use Icechunk to speed up ocean data access workflows."
+  },
+  {
+    "objectID": "posts/southbrazilflood/index.html",
+    "href": "posts/southbrazilflood/index.html",
+    "title": "Featured in Oceanus: The Human Cost of Brazil’s Floods",
+    "section": "",
+    "text": "Oceanus Magazine published a feature on our work examining the May 2024 floods in southern Brazil and their environmental and social impacts: The human cost of Brazil’s floods: New research maps social vulnerability after the 2024 deluge.\nThe article discusses how we used SWOT satellite observations together with topographic and socioeconomic datasets to quantify flood impacts, including effects on croplands and socially vulnerable communities.\nFor the scientific article, see: The May 2024 Flood Disaster in Southern Brazil: Causes, Impacts, and SWOT-Based Volume Estimation, published in Geophysical Research Letters on February 28, 2025."
+  },
+  {
+    "objectID": "posts/radionovelo_tico/index.html",
+    "href": "posts/radionovelo_tico/index.html",
+    "title": "Special Participation on Rádio Novelo Apresenta Podcast",
+    "section": "",
+    "text": "I had a special participation in the Rádio Novelo Apresenta podcast episode Deixa a vida me levar, which tells the story of Tico’s extraordinary journey.\nThe podcast is in Portuguese.\nIf you have been following the Tico story through my research and related outreach, this episode offers another perspective on that trajectory and the people involved in it."
+  },
+  {
+    "objectID": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
+    "href": "posts/obsidian-github/index.html#why-integrate-obsidian-with-github",
+    "title": "Storing an Obsidian vault on GitHub",
+    "section": "Why integrate Obsidian with GitHub?",
+    "text": "Why integrate Obsidian with GitHub?\nRecently I started using Obsidian to organize my notes. What I love most about this software is that everything is in Markdown, which not only makes it easy to access and port to other tools, but I am also free to make my own code in Python or other languages to interact with the notes. If you are curious about Obsidian, there are several tutorials on the internet for you to learn how to use it.\nObsidian is a great note-taking app that uses Markdown, making it easy to access and port your notes to other tools. However, Obsidian charges a fee for synchronization between different devices. One way to work around this is to use a storage service like Dropbox, Google Drive, or OneDrive. However, if you want to mix code and tutorials with your notes or are concerned about different versions of your notes, integrating with GitHub is a good alternative. GitHub allows you to store your notes on its platform and also provides version control, which means you can keep track of all changes made to your notes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Iury  Simoes-Sousa",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     ResearchGate\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Lattes\n  \n  \n    \n     e-mail\n  \n\n  \n  \n\n\nI’m a Physical and Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools to investigate different aspects in Ocean Sciences.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Iury  Simoes-Sousa",
+    "section": "",
+    "text": "I’m a Physical and Computational Oceanographer, currently working as a Postdoctoral Investigator at Woods Hole Oceanographic Institution focused on the use of high-performance computational tools to investigate different aspects in Ocean Sciences.\nOriginally from Fortaleza (Brazil), I have a degree in Oceanography from the Federal University of Ceará (2014), a Master’s in Physical Oceanography from the University of São Paulo (2017) and a PhD in Computational Science and Engineering from the University of Massachusetts Dartmouth (2023).\nIn the free time, I love playing accordion, dancing Forró, studying history and hiking. I am also hemophilic and I’m passionate about promoting understanding and raising awareness around rare genetic disorders."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Featured in Oceanus: The Human Cost of Brazil’s Floods\n\n\n\nNews\n\nResearch\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nSpecial Participation on Rádio Novelo Apresenta Podcast\n\n\n\nNews\n\nOutreach\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured in Oceanus: Saving Tico\n\n\n\nNews\n\nResearch\n\n\n\n\n\n\n\n\n\nNov 4, 2024\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nCookbook for nice scientific presentations\n\n\n\nScience\n\n\n\n\n\n\n\n\n\nApr 10, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating Google Colab and GitHub\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\nApr 9, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nStoring an Obsidian vault on GitHub\n\n\n\nTechnology\n\n\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\n\n\n\n\n\n\n\nTrying Quarto\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nIury Simoes-Sousa\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "booking.html",
+    "href": "booking.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Use the scheduler below to book a time with me directly on Google Calendar."
+  },
+  {
+    "objectID": "posts/colab-github/index.html",
+    "href": "posts/colab-github/index.html",
+    "title": "Integrating Google Colab and GitHub",
+    "section": "",
+    "text": "Recently I have been studying on how to setup GitHub with Google Colab to keep track of the changes while storing code on the cloud. This is mainly because I am remotely advising an undergrad student that doesn’t have access to computer resources and I am planning to use Google Colab as a workspace while doing the version control using git. To follow this tutorial, I am assuming you have a Google and a GitHub account.\n\nCreating a repository\nThe first thing you need is to have a repository for the project. On https://github.com/new you can go ahead and setup a new repository. In this example it will be a public repository, but the same works for private ones.\n\nFor this example, I am adding a README.md file, a .gitignore based on a Python template under MIT License. Once you created the repository, we now need to make sure we can access it by Google Colab environment.\n\n\nSetting up a fine-grained access token on GitHub\nNow we need a token. Private access tokens are special passwords that you can configure to have different permissions to your account on GitHub. On GitHub website, click on settings on the menu bar that shows up after clicking your profile photo.\n Now scroll down the left side bar and click on Developer settings and then click on Fine-grained tokens under Personal access tokens.\n\nThis will open a new tab and you will be able to see a button for creating a new token. For this example, I am setting up this token for 30 days and selecting this repository only. (For repositories under an organization, change the resource owner to the organization where the repository is stored.)\n\nFor Repository permissions, change the access to the Contents to Read and Write.\n\nNow scroll down and click in Generate token. This will show you the list of tokens and you will be able to copy this one.\n\nNow we can go to Google Drive to setup our workspace and git commands.\n\n\nSetting up Google Drive and Colab\nOn Google Drive, setup a folder for your repositories. In my case, I created a folder called Shared. Now create a new Google Colab file in this folder. This colab file will run the git commands. In my case, I am calling it Git.ipynb.\nThe fist cell of this notebook will mount your Google Drive\nfrom google.colab import drive\ndrive.mount('/content/drive')\nThe next cell will clone the repository and configure the global variables for git.\nimport os\nimport subprocess\n\n# Repository name\nrepository = \"ColabTesting\"\n\n# Base path\nbase = \"/content/drive/MyDrive/Shared\"\n\n# Specify the folder path\nfolder_path = f\"{base}/{repository}\"  # Change this to the desired folder path\n\n# Username\nusername = \"&lt;your-username&gt;\"\n\n# User email\nemail = \"&lt;your-email&gt;\"\n\n# Full name\nname = \"&lt;your-full-name&gt;\"\n\n# Token\ntoken = \"&lt;token&gt;\"\n\n# Owner\nowner = username\n\n# Move to the repository folder\n%cd {base}\n\n# Check if folder exists\nif not os.path.exists(folder_path):\n    clone_url = f'https://{username}:{token}@github.com/{owner}/{repository}.git'\n    # Clone repository from GitHub\n    !git clone {clone_url}\nelse:\n    print(f\"Folder '{folder_path}' already exists.\")\n\n# Move to folder\n%cd {folder_path}\n\n!git pull\n\n# Update .gitconfig using subprocess\nsubprocess.run(['git', 'config', '--global', 'user.email', email], check=True)\nsubprocess.run(['git', 'config', '--global', 'user.name', name], check=True)\nThe following cells are for git commands.\nPulling changes from remote:\n!git pull\nChecking the status:\n!git status\nStaging all local changes:\n!git add --all\nComment on the changes:\n!git commit -m \"Update\"\nPush it back to remote:\n!git push\n\n\nTesting the workflow\nNow you have a new folder on the google drive. Let try to create a notebook there and test the git workflow.\n\nNow we can come back to Git.ipynb and run the whole notebook. It will bypass the clone command, pull changes from remote, stage this change, comment and push it back to remote.\nIn my case, the first !git status returned:\nOn branch main\nYour branch is up to date with 'origin/main'.\n\nUntracked files:\n    (use \"git add &lt;file&gt;...\" to include in what will be committed)\n    Test_Notebook.ipynb\n\nnothing added to commit but untracked files present (use \"git add\" to track)\n!git commit -m \"Update\" retuned:\n[main 52968bb] Update\n1 file changed, 1 insertion(+)\ncreate mode 100644 Test_Notebook.ipynb\nThe second !git status returned:\nOn branch main\nYour branch is ahead of 'origin/main' by 1 commit.\n    (use \"git push\" to publish your local commits)\n\nnothing to commit, working tree clean\nAnd the !git push returned:\nEnumerating objects: 4, done. \nCounting objects: 100% (4/4), done.\nDelta compression using up to 2 threads\nCompressing objects: 100% (3/3), done.\nWriting objects: 100% (3/3), 501 bytes | 125.00 KiB/s, done.\nTotal 3 (delta 1), reused 0 (delta 0)\nremote: Resolving deltas: 100% (1/1), completed with 1 local object.\nTo [https://github.com/iuryt/ColabTesting.git](https://github.com/iuryt/ColabTesting.git) \n    dfaaaea..52968bb main -&gt; main\nNow, everytime you make a change in the repository, you come back to this file and run the git commands.\nPlease, let me know in the comments below if this tutorial helped you, that means a lot to me and helps me keeping motivated while posting here."
+  },
+  {
+    "objectID": "posts/presentations-cookbook/index.html",
+    "href": "posts/presentations-cookbook/index.html",
+    "title": "Cookbook for nice scientific presentations",
+    "section": "",
+    "text": "This post is a work in progress and will be updated every time I remember something new or have new good tips to add. The idea is to make a cookbook with examples and counter-examples for preparing good scientific presentations, but for now I will simply list what I personally consider good practices for preparing a good presentation. This is a compilation of my own opinions, tips that I have received from various people and sources that I have not yet organized in a systematic way, i.e. it is not restricted to my own ideas, but ideas that I have also collected throughout my still short academic career.\n\nOn the first slide you must make clear the topic of the presentation, authors, funding agencies, and affiliated institutions. The funding agencies can also be on the acknowledgements slide. You can also add a summary image that gives a graphic idea of the object of study, but it is not essential.\nPrefer a white background, but you can use color design for sidebars, top or bottom.\nAlways number your slides. This is extremely important to help people elaborate and reference the questions at the end of the presentation.\nUse a color code for different context. For example, standard text can be in black with some bold. Important things in red and quotes in green. This can help people identify the main points without having to read the whole text.\nAfter the title slide you can have a short slide to introduce yourself. This is especially important for early-career scientists. You can list your projects, collaborations, scientific interests, and even comment on some hobbies that you have. This is a good opportunity to connect with the audience, so you can mention something that connects you to the place you are presenting or to people in the audience.\nAfter that you can have an outline slide, which gives a general idea of the path you will take with the audience. While not mandatory, it can help the audience understand the order and logic of the presentation, but don’t go into too much detail. It is just to give an idea.\nI like to start the presentation itself with a slide that has minimal text and an image that takes up much of the space. This image should impact the audience and give a visual sense of the object of study. For example, I often start the presentation of my work on phytoplankton blooms with an image of trees in springtime bloom in the continent. Right after I present a satellite image of phytoplankton blooms in the open ocean. This usually has an impact and makes it clear up front that the main topic of the paper is spring blooms and that, despite the differences, they also occur in the ocean.\nDo your best to explicitly present the scientific questions. The central goal of the introduction is to try as much as possible to make the audience almost predict these questions, i.e. to make clear what has not yet been investigated and its importance.\nFor content slides, I generally start building the slide with an image and add text only for what the image does not say by itself, or for things that I want to emphasize in the image. This prevents the slides from having too much text.\nPlease explicitly explain what is being presented in the figures, their axes, colors, units, etc..\nTowards the end of each section, you can remind the audience what we learned from those analyses. Not everything will seem obvious to those watching, so it’s important to make that explicit.\nPrepare a good question or statement for the last slide. Avoid ending with an explicit thank you. The idea is to make the audience want to learn more about the subject, so try to stimulate their curiosity with a last message.\n\nI wrote this post in just a few minutes and with all certainty I know I am leaving out most of the complexity surrounding this topic. Over time I plan to populate and update this post with new ideas, but if you have any other ideas that you don’t see covered here, you can also post them in the comments here below."
+  },
+  {
+    "objectID": "posts/saving-tico/index.html",
+    "href": "posts/saving-tico/index.html",
+    "title": "Featured in Oceanus: Saving Tico",
+    "section": "",
+    "text": "Oceanus Magazine published a feature on Tico’s remarkable journey and on the role of ocean currents in understanding and supporting marine mammal conservation: Saving Tico.\nThe story highlights the collaboration with AQUASIS and the oceanographic analysis used to show how the North Brazil Current shaped Tico’s trajectory.\nFor the underlying scientific paper, see: The longest documented travel by a West Indian manatee, published online by Cambridge University Press on October 29, 2024."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Trying Quarto",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nI plan to post here my thoughts about Science, Technology and Music."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on marine conservation.\nI am passionate about uncovering scientific answers while also developing tools that empower other researchers and stakeholders to explore their own questions. My work extends beyond research, focusing on building open-source software that enhances data analysis, visualization, and accessibility for the broader scientific community."
+  },
+  {
+    "objectID": "research.html#the-origins-and-aftermath-of-extreme-events",
+    "href": "research.html#the-origins-and-aftermath-of-extreme-events",
+    "title": "Research",
+    "section": "The Origins and Aftermath of Extreme Events",
+    "text": "The Origins and Aftermath of Extreme Events\nI use Earth and environmental sciences theory and computational methods to understand the causes and regional impacts of extreme events on ecosystems and human populations.\n\n  \n    \n      \n      \n        Investigating atmospheric blocking using cloud computing for extreme weather analysis.\n      \n    \n    \n      \n      \n        SWOT Mission Data: Estimating extreme flood event volumes.\n      \n    \n    \n      \n      \n        Geophysical and Socioeconomic Data: Assessing extreme event impacts."
+  },
+  {
+    "objectID": "research.html#satellite-data-and-ocean-models-for-wildlife-conservation",
+    "href": "research.html#satellite-data-and-ocean-models-for-wildlife-conservation",
+    "title": "Research",
+    "section": "Satellite Data and Ocean Models for Wildlife Conservation",
+    "text": "Satellite Data and Ocean Models for Wildlife Conservation\nThis research explores how oceanographic and atmospheric conditions impact the conservation of endangered species, using remote sensing and predictive modeling. The project originated with the study of Tico’s journey—the longest recorded distance traveled by a released West Indian manatee—conducted in collaboration with AQUASIS. This story was explored by a science communication article at Oceanus Magazine (WHOI). For those interested in the technical details, the code has been made available on GitHub.\n\n  \n    \n      \n      \n        Saving Tico - Article at Oceanus Magazine - Illustration by Charin Park\n      \n    \n    \n      \n      \n        Tico and his brother from rescue to release\n      \n    \n    \n      \n      \n        Tico's journey from Brazil to Venezuela\n      \n    \n    \n      \n      \n        Tico surfing the currents\n      \n    \n    \n      \n      \n        Freshwater availability"
+  },
+  {
+    "objectID": "research.html#multiscale-oceanographic-datasets-for-investigating-ocean-dynamics",
+    "href": "research.html#multiscale-oceanographic-datasets-for-investigating-ocean-dynamics",
+    "title": "Research",
+    "section": "Multiscale Oceanographic Datasets for Investigating Ocean Dynamics",
+    "text": "Multiscale Oceanographic Datasets for Investigating Ocean Dynamics\nI use a wide range of ocean-observing technologies, from satellite altimetry and SWOT measurements to DopplerScatt aircraft data, moorings, oceanographic stations, Seagliders, drifters, and Wave Gliders. By combining these observations with advanced data analysis and visualization tools, I study how ocean vortices form, evolve, and move particles.\n\n  \n    \n      \n      \n        Matching altimetry-tracked mesoscale vortices and vertical profiles\n      \n    \n    \n      \n      \n        High-resolution Doppler Scatterometer and airborne sea surface temperatures\n      \n    \n    \n      \n      \n        Tracking origin and paths of mesoscale vortices\n      \n    \n    \n      \n      \n        The evolution and growth rate of mesoscale vortices\n      \n    \n    \n      \n      \n        Investigating topographic submesoscale vortices close to the Equator\n      \n    \n    \n      \n      \n        Time series processing and analysis of ocean moorings\n      \n    \n    \n      \n      \n        Eddy composite analysis combining large ocean datasets and scalable visualization workflows"
+  },
+  {
+    "objectID": "research.html#modeling-vortex-dynamics-and-phytoplankton-interactions",
+    "href": "research.html#modeling-vortex-dynamics-and-phytoplankton-interactions",
+    "title": "Research",
+    "section": "Modeling Vortex Dynamics and Phytoplankton Interactions",
+    "text": "Modeling Vortex Dynamics and Phytoplankton Interactions\nTheoretical and interdisciplinary projects on vortex dynamics and biophysical interactions from sub to mesoscale. Using high-performance computing and GPU-accelerated code, I study how ocean physics and biology interact across scales. The code for the simulations and analyses of one of the published papers is available on GitHub.\n\n  \n    \n      \n      \n        Two-dimensional forced turbulence simulations\n      \n    \n    \n      \n      \n        Modeling submesoscale fronts and biogeochemical tracers\n      \n    \n    \n      \n      \n        Submesoscale process modeling on GPUs\n      \n    \n    \n      \n      \n        Biophysical interactions at multiscale ocean processes"
+  },
+  {
+    "objectID": "research.html#air-sea-interaction-in-the-indian-ocean",
+    "href": "research.html#air-sea-interaction-in-the-indian-ocean",
+    "title": "Research",
+    "section": "Air-Sea Interaction in the Indian Ocean",
+    "text": "Air-Sea Interaction in the Indian Ocean\nProjects on understanding air-sea interactions in the Indian Ocean and their relationship with Monsoon Rain, both from Atmospheric Sciences and Oceanography perspectives.\n\n  \n    \n      \n      \n        Intense atmospheric cool pool in the Bay of Bengal\n      \n    \n    \n      \n      \n        Identifying atmospheric cold pools from time series\n      \n    \n    \n      \n      \n        The role of atmospheric cold pools on air-sea heat fluxes\n      \n    \n    \n      \n      \n        Estimating the direction of propagation of cold pools\n      \n    \n    \n      \n      \n        Sea surface temperature (SST) biases from satellite products\n      \n    \n    \n      \n      \n        Combining multiple datasets to investigate SST biases"
+  },
+  {
+    "objectID": "research.html#teaching-initiatives-and-experience",
+    "href": "research.html#teaching-initiatives-and-experience",
+    "title": "Research",
+    "section": "Teaching Initiatives and Experience",
+    "text": "Teaching Initiatives and Experience\nAs an enthusiast of hands-on teaching experiences, I enjoy finding creative ways for teaching ocean and environmental sciences, such as exploring theory using lab experiments, analyzing real-world examples or running idealized numerical simulations.\n\n  \n    \n      \n        \n      \n      \n        Data visualization for educational purposes (Latitude Dependence of Planetary Vorticity)\n      \n    \n    \n      \n      \n        Exploring real-world examples along with theory (Hurricane tracks)\n      \n    \n    \n      \n      \n        Exploring real-world examples along with theory (Winds and Ocean Gyres)\n      \n    \n    \n      \n      \n        Laboratory experiments on rotating tanks\n      \n    \n    \n      \n      \n        Simulating laboratory experiments on rotating tanks"
+  }
+]
