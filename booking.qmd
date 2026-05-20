@@ -1,0 +1,20 @@
+---
+title: "Schedule"
+subtitle: "Schedule a meeting"
+title-block-banner: true
+---
+
+Use the scheduler below to book a time with me directly on Google Calendar.
+
+```{=html}
+<div class="booking-frame">
+  <iframe
+    src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ34XNg8AssVx5xh6QaxF05oHsTMyC9C6NQ3VmqsyqP3cOH6C0e9rHX4VBbAijRkynXx9BjV5sZ3?gv=true"
+    title="Google Calendar appointment scheduling"
+    style="border: 0"
+    width="100%"
+    height="600"
+    frameborder="0">
+  </iframe>
+</div>
+```

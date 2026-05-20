@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+  preview:
+    port: 4242
+    browser: false
+website:
+  title: "iuryt" 
+  site-url: https://iuryt.github.io
+  description: "Iury Simoes-Sousa — Physical and Computational Oceanographer"
+  favicon: favicon.png
+  navbar:
+    background: dark
+    right:
+      - text: Research
+        href: research.qmd
+      - text: Software
+        href: software.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Schedule
+        href: booking.qmd
+      - text: CV
+        href: https://drive.google.com/file/d/1XN-B0u18Rt03k9A7tMaLTz_6z72f6oqr/view?usp=sharing
+        target: _blank
+      - icon: github
+        href: https://github.com/iuryt
+  google-analytics: "G-714SSKLCZ0"
+
+
+format:
+  html:
+    theme: cosmo
+    linkcolor: '#2a6496'
+    css: styles.css
+

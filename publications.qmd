@@ -1,0 +1,10 @@
+---
+title: "Publications"
+title-block-banner: true
+---
+
+<br>
+
+<script src="https://bibbase.org/show?bib=https://github.com/iuryt/iuryt.github.io/raw/main/references.bib&jsonp=1&theme=default"></script>
+
+<br>
