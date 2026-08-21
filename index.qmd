@@ -31,12 +31,12 @@ about:
 
 ## About me
 
-I'm a **Physical and Computational Oceanographer**, currently working as an Assistant Professor at the [University of Delaware](https://www.udel.edu/) focused on the use of high-performance computational tools to investigate different aspects in Ocean Sciences.
+I'm a **Computational and Physical Oceanographer** and an Assistant Professor at the [University of Delaware](https://www.udel.edu/). I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017), and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023).
 
 In my free time, I love playing accordion, dancing [Forró](https://en.wikipedia.org/wiki/Forr%C3%B3), studying history, and hiking.
-I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passionate about promoting understanding and raising awareness around rare genetic disorders.
+I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passionate about promoting understanding and raising awareness of rare genetic disorders.
 
 :::
 
@@ -44,6 +44,6 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passi
 
 At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on human populations and marine wildlife.
 
-I am also deeply committed to scientific outreach and education, ensuring that oceanography is accessible to a wider audience. Collaboration is at the core of my work, and I actively engage with scientists, students, and stakeholders to advance interdisciplinary ocean science and promote open and applied data-driven discovery.
+I am also deeply committed to scientific outreach and education, ensuring that oceanography is accessible to a wider audience. Collaboration is at the core of my work, and I actively engage with scientists, students, and stakeholders to advance interdisciplinary ocean science and promote open, applied, data-driven discovery.
 
 [Learn more about my research &rarr;](research.qmd)
