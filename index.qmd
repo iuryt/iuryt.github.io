@@ -31,7 +31,7 @@ about:
 
 ## About me
 
-I'm a **Computational and Physical Oceanographer** and an Assistant Professor at the [University of Delaware](https://www.udel.edu/). I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.
+I'm a **Computational Oceanographer** and an Assistant Professor at the [University of Delaware](https://www.udel.edu/). I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017), and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023).
 
