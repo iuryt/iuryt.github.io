@@ -24,7 +24,7 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 
 ### Key Files
 
-- `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon
+- `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon, Open Graph / Twitter Card link previews (default image `profile.jpg`; pages with an `image:` use their own)
 - `index.qmd` — landing page: `trestles` about hero, research-interest chips, and a "Recent news" table listing of the latest posts
 - `research.qmd` — research page organized by three lines (Data-driven / Dynamics / Impacts, plus Teaching), each a Quarto grid listing of cards pulled from `research/<line>-*.qmd` (sorted by an `order` field)
 - `research/*.qmd` — one subpage per project. Front matter: `title`, `subtitle` (research line), `description`, `image` (social/fallback), `body-classes` (line color), `order`, and `gallery:` — a list of `{src: ../img/research/..., caption: "..."}` (`.mp4` sources render as autoplaying video). The page body uses `{{< gallery >}}` to render the gallery as a carousel. **To add a figure to a project, add one item to its `gallery:` list** — both the project page and its card on the Research page update.
