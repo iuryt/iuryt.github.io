@@ -2,7 +2,7 @@
 title: "Open, cloud-native data tools"
 subtitle: "Data-driven methods"
 description: "Software and workflows that make large ocean datasets fast to access and easy to explore."
-image: ../img/software/whereisswot.png
+image: ../img/social/data-open-tools.jpg
 body-classes: line-data
 gallery:
   - src: ../img/software/whereisswot.png

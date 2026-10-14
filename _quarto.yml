@@ -13,8 +13,10 @@ website:
   site-url: https://iuryt.github.io
   description: "Computational oceanographer and Assistant Professor at the University of Delaware"
   favicon: favicon.png
-  image: profile.jpg
-  open-graph: true
+  image: img/social/card.jpg
+  open-graph:
+    image-width: 1200
+    image-height: 630
   twitter-card: true
   navbar:
     background: light
@@ -46,4 +48,5 @@ format:
   html:
     theme: [cosmo, theme.scss]
     title-block-banner: false
+    include-in-header: _includes/icons.html
 

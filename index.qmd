@@ -1,6 +1,12 @@
 ---
 title: Iury Simoes-Sousa
 image: profile.jpg
+open-graph:
+  title: "Iury Simoes-Sousa — Computational Oceanographer"
+  image: img/social/card.jpg
+twitter-card:
+  title: "Iury Simoes-Sousa — Computational Oceanographer"
+  image: img/social/card.jpg
 about:
   id: hero-heading
   template: trestles

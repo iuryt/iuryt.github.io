@@ -2,7 +2,7 @@
 title: "Hands-on ocean science teaching"
 subtitle: "Teaching"
 description: "Rotating tanks, real-world examples, and visualizations to teach geophysical fluid dynamics."
-image: ../img/research/rotating2.webp
+image: ../img/social/teaching-hands-on.jpg
 body-classes: line-data
 gallery:
   - src: ../img/research/rotating_earth.mp4
