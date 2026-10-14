@@ -1,0 +1,27 @@
+---
+title: "Air–sea interaction and cold pools"
+subtitle: "Multiscale ocean & atmosphere dynamics"
+description: "Atmospheric cold pools, air–sea fluxes, and monsoon variability in the Bay of Bengal."
+image: ../img/research/coldpool1.webp
+body-classes: line-dyn
+gallery:
+  - src: ../img/research/coldpool1.webp
+    caption: "Intense atmospheric cold pool in the Bay of Bengal"
+  - src: ../img/research/coldpool2.webp
+    caption: "Identifying atmospheric cold pools from time series"
+  - src: ../img/research/coldpool3.webp
+    caption: "The role of atmospheric cold pools on air-sea heat fluxes"
+  - src: ../img/research/coldpool4.webp
+    caption: "Estimating the direction of propagation of cold pools"
+order: 3
+---
+
+Using mooring data from the Bay of Bengal, I characterized hundreds of atmospheric cold pools — evaporatively driven downdrafts from precipitating clouds — and quantified their role in air–sea heat fluxes and monsoon rainfall, from both atmospheric and oceanographic perspectives.
+
+{{< gallery >}}
+
+## Related
+
+- [Atmospheric Cold Pools in the Bay of Bengal — J. Atmospheric Sciences (2022)](https://doi.org/10.1175/JAS-D-22-0041.1)
+
+[&larr; All research](../research.qmd)

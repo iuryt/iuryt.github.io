@@ -1,0 +1,27 @@
+```{=html}
+<div class="research-cards">
+<% items.forEach((item, n) => { %>
+  <div class="research-cards-item">
+    <a href="<%- item.path %>" class="card research-card h-100">
+      <div class="card-gallery carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="<%= 3600 + (n % 3) * 900 %>">
+        <div class="carousel-inner">
+        <% (item.gallery || []).forEach((g, i) => { var src = String(g.src); if (src.indexOf('../') === 0) { src = src.substring(3); } %>
+          <div class="carousel-item<%= i === 0 ? ' active' : '' %>">
+          <% if (src.slice(-4) === '.mp4') { %>
+            <video autoplay loop muted playsinline aria-label="<%= g.caption %>"><source src="<%- src %>" type="video/mp4"></video>
+          <% } else { %>
+            <img src="<%- src %>" alt="<%= g.caption %>" loading="lazy">
+          <% } %>
+          </div>
+        <% }) %>
+        </div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><%= item.title %></h5>
+        <p class="card-text"><%= item.description %></p>
+      </div>
+    </a>
+  </div>
+<% }) %>
+</div>
+```

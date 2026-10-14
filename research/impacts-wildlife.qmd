@@ -1,0 +1,31 @@
+---
+title: "Ocean currents and wildlife conservation"
+subtitle: "Impacts on ecosystems & people"
+description: "How ocean currents shaped Tico's 4,000 km journey — the longest recorded for a released manatee."
+image: ../img/research/oceanus.webp
+body-classes: line-imp
+gallery:
+  - src: ../img/research/oceanus.webp
+    caption: "Saving Tico — Oceanus Magazine. Illustration by Charin Park"
+  - src: ../img/research/tico1.webp
+    caption: "Tico and his brother from rescue to release"
+  - src: ../img/research/tico2.webp
+    caption: "Tico's journey from Brazil to Venezuela"
+  - src: ../img/research/tico3.webp
+    caption: "Tico surfing the currents"
+  - src: ../img/research/tico4.webp
+    caption: "Freshwater availability"
+order: 2
+---
+
+This research explores how oceanographic and atmospheric conditions affect the conservation of endangered species, using remote sensing and predictive modeling. It began with Tico's journey — the longest recorded distance traveled by a released West Indian manatee — in collaboration with [AQUASIS](https://aquasis.org/).
+
+The story was featured in [Oceanus Magazine](../posts/saving-tico/index.qmd) and on the [Rádio Novelo Apresenta](../posts/radionovelo_tico/index.qmd) podcast. The code is available on [GitHub](https://github.com/iuryt/tico_peixeboi).
+
+{{< gallery >}}
+
+## Related
+
+- [The longest documented travel by a West Indian manatee — J. Marine Biological Association UK (2024)](https://doi.org/10.1017/S0025315424000894)
+
+[&larr; All research](../research.qmd)

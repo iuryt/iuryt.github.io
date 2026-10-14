@@ -1,0 +1,31 @@
+---
+title: "Mesoscale and submesoscale vortices"
+subtitle: "Multiscale ocean & atmosphere dynamics"
+description: "How ocean vortices form, evolve, interact with topography, and move water around."
+image: ../img/research/multiscale3.webp
+body-classes: line-dyn
+gallery:
+  - src: ../img/research/multiscale3.webp
+    caption: "Tracking origin and paths of mesoscale vortices"
+  - src: ../img/research/multiscale4.webp
+    caption: "The evolution and growth rate of mesoscale vortices"
+  - src: ../img/research/multiscale5.webp
+    caption: "Investigating topographic submesoscale vortices close to the Equator"
+  - src: ../img/research/multiscale6.webp
+    caption: "Time series processing and analysis of ocean moorings"
+  - src: ../img/research/turbulence.webp
+    caption: "Two-dimensional forced turbulence simulations"
+order: 1
+---
+
+Ocean vortices span scales from hundreds of kilometers down to a few kilometers. Combining observations, tracking algorithms, and idealized simulations, I study how they form, grow, propagate, and transport properties — from the Brazil Current system to the near-equatorial Atlantic.
+
+{{< gallery >}}
+
+## Related
+
+- [The Brazil Current mesoscale eddies — Deep-Sea Research I (2022)](https://doi.org/10.1016/j.dsr.2022.103947)
+- [The Barreirinhas Eddies — Frontiers in Marine Science (2021)](https://doi.org/10.3389/fmars.2021.617011)
+- [Brazil Current unstable meanders — Progress in Oceanography (2022)](https://doi.org/10.1016/j.pocean.2022.102925)
+
+[&larr; All research](../research.qmd)

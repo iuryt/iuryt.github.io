@@ -1,0 +1,25 @@
+---
+title: "Submesoscale fronts and mixed layer eddies"
+subtitle: "Multiscale ocean & atmosphere dynamics"
+description: "GPU-accelerated simulations of fronts, instabilities, and restratification of the upper ocean."
+image: ../img/research/mle0.webp
+body-classes: line-dyn
+gallery:
+  - src: ../img/research/mle0.webp
+    caption: "Modeling submesoscale fronts and biogeochemical tracers"
+  - src: ../img/research/mle1.webp
+    caption: "Submesoscale process modeling on GPUs"
+order: 2
+---
+
+Mixed layer eddies arising from baroclinic instability of fronts convert horizontal buoyancy gradients into vertical stratification. Using high-performance, GPU-accelerated models, I study these submesoscale processes and how well coarse-resolution parameterizations capture them.
+
+The code for the simulations and analyses is available on [GitHub](https://github.com/iuryt/NorthAtlanticBloom).
+
+{{< gallery >}}
+
+## Related
+
+- [Mixed layer eddies and the spring bloom — Frontiers in Marine Science (2022)](https://doi.org/10.3389/fmars.2022.825027)
+
+[&larr; All research](../research.qmd)

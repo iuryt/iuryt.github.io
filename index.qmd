@@ -1,19 +1,16 @@
 ---
-title: Iury <br> Simoes-Sousa
+title: Iury Simoes-Sousa
 image: profile.jpg
-format:
-  html:
-    mainfont: serif
 about:
   id: hero-heading
   template: trestles
   image-shape: round
-  image-width: 13em
+  image-width: 12em
   links:
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/iuryt
-    - icon: researchgate
+    - icon: mortarboard
       text: ResearchGate
       href: https://www.researchgate.net/profile/Iury-T-Simoes-Sousa
     - icon: linkedin
@@ -22,16 +19,28 @@ about:
     - icon: link
       text: Lattes
       href: http://lattes.cnpq.br/2966459341524804
-    - icon: mailbox
-      text: e-mail
-      href: mailto:iury@whoi.edu
+    - icon: envelope
+      text: Email
+      href: mailto:iury@udel.edu
+listing:
+  id: recent-posts
+  contents: posts
+  sort: "date desc"
+  type: table
+  fields: [date, title]
+  max-items: 4
+  sort-ui: false
+  filter-ui: false
+  date-format: "MMM YYYY"
 ---
 
 :::{#hero-heading}
 
-## About me
+::: {.hero-role}
+Computational Oceanographer · Assistant Professor, [University of Delaware](https://www.udel.edu/)
+:::
 
-I'm a **Computational Oceanographer** and an Assistant Professor at the [University of Delaware](https://www.udel.edu/). I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.
+I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.
 
 Originally from Fortaleza (Brazil), I have a degree in Oceanography from the [Federal University of Ceará](https://www.ufc.br/) (2014), a Master's in Physical Oceanography from the [University of São Paulo](https://www5.usp.br) (2017), and a PhD in Computational Science and Engineering from the [University of Massachusetts Dartmouth](https://www.umassd.edu/) (2023).
 
@@ -40,10 +49,23 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passi
 
 :::
 
-### Science, Software, and Society
+## Research
 
-At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on human populations and marine wildlife.
+My research follows three connected lines:
 
-I am also deeply committed to scientific outreach and education, ensuring that oceanography is accessible to a wider audience. Collaboration is at the core of my work, and I actively engage with scientists, students, and stakeholders to advance interdisciplinary ocean science and promote open, applied, data-driven discovery.
+::: {.research-lines}
+[**1 · Data-driven**<br>Methods to fuse, share, and learn from large environmental datasets](research.qmd#data){.line-data}
 
-[Learn more about my research &rarr;](research.qmd)
+[**2 · Dynamics**<br>Multiscale physical processes in the ocean and atmosphere](research.qmd#physics){.line-dyn}
+
+[**3 · Impacts**<br>How multiscale physics affects ecosystems and people](research.qmd#impacts){.line-imp}
+:::
+
+[Learn more about my research &rarr;](research.qmd) &nbsp;·&nbsp; [Join the group &rarr;](group.qmd)
+
+## Recent news
+
+:::{#recent-posts}
+:::
+
+[All posts &rarr;](blog.qmd)

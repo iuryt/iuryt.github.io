@@ -1,0 +1,27 @@
+---
+title: "Extreme events and flood impacts"
+subtitle: "Impacts on ecosystems & people"
+description: "The causes of the May 2024 floods in southern Brazil and who was affected."
+image: ../img/research/large_scale.webp
+body-classes: line-imp
+gallery:
+  - src: ../img/research/large_scale.webp
+    caption: "Atmospheric conditions behind the May 2024 extreme rainfall"
+  - src: ../img/research/swot_depth.webp
+    caption: "SWOT mission data: estimating extreme flood event volumes"
+  - src: ../img/research/landcover_vulnerable.webp
+    caption: "Geophysical and socioeconomic data: assessing extreme event impacts"
+order: 1
+---
+
+In May 2024, southern Brazil experienced a devastating flood caused by a rare combination of atmospheric conditions: a heatwave stalled a cold front, leading to prolonged and intense rainfall. Combining reanalysis, SWOT and Sentinel-2 observations, topography, and socioeconomic data, we estimated a floodwater volume of about 1.5 billion m³ and found that roughly 420,000 people in the study region were directly affected, about 16% of them socially vulnerable.
+
+The work was featured in [Oceanus Magazine](../posts/southbrazilflood/index.qmd).
+
+{{< gallery >}}
+
+## Related
+
+- [The May 2024 Flood Disaster in Southern Brazil — Geophysical Research Letters (2025)](https://doi.org/10.1029/2024GL112442)
+
+[&larr; All research](../research.qmd)

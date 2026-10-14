@@ -1,0 +1,30 @@
+---
+title: "Hands-on ocean science teaching"
+subtitle: "Teaching"
+description: "Rotating tanks, real-world examples, and visualizations to teach geophysical fluid dynamics."
+image: ../img/research/rotating2.webp
+body-classes: line-data
+gallery:
+  - src: ../img/research/rotating_earth.mp4
+    caption: "Data visualization for teaching: latitude dependence of planetary vorticity"
+  - src: ../img/research/hurricanes_global.webp
+    caption: "Exploring real-world examples along with theory: global hurricane tracks from IBTrACS, colored by category"
+  - src: ../img/research/rotating1.webp
+    caption: "Exploring real-world examples along with theory (winds and ocean gyres)"
+  - src: ../img/research/rotating2.webp
+    caption: "Laboratory experiments on rotating tanks"
+  - src: ../img/research/rotating3.webp
+    caption: "Simulating laboratory experiments on rotating tanks"
+order: 1
+---
+
+I enjoy finding creative ways to teach ocean and environmental sciences: exploring theory with laboratory experiments, analyzing real-world examples, and running idealized numerical simulations.
+
+{{< gallery >}}
+
+## Related
+
+- [Hurricanes data exploration: IBTrACS and ERA5 notebooks for teaching (GitHub)](https://github.com/iuryt/hurricanes)
+- [Munk's ocean circulation in a rotating tank — Ocean and Coastal Research (2021)](https://doi.org/10.1590/2675-2824069.20-011psp)
+
+[&larr; All research](../research.qmd)

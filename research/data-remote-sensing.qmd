@@ -1,0 +1,28 @@
+---
+title: "Multiplatform ocean observations"
+subtitle: "Data-driven methods"
+description: "Combining satellites, aircraft, and autonomous platforms into a consistent view of the upper ocean."
+image: ../img/research/multiscale2.webp
+body-classes: line-data
+gallery:
+  - src: ../img/research/multiscale2.webp
+    caption: "High-resolution Doppler Scatterometer and airborne sea surface temperatures"
+  - src: ../img/research/bams1.webp
+    caption: "Sea surface temperature (SST) biases from satellite products"
+  - src: ../img/research/bams2.webp
+    caption: "Combining multiple datasets to investigate SST biases"
+order: 2
+---
+
+I work with a wide range of ocean-observing technologies, from satellite altimetry and SWOT to DopplerScatt aircraft data, moorings, oceanographic stations, Seagliders, drifters, and Wave Gliders. Bringing these together — and understanding their biases — is the first step toward interpreting multiscale ocean dynamics.
+
+Examples include airborne surface velocity and temperature from the NASA S-MODE campaign and the evaluation of satellite sea surface temperature products against in situ data in the Bay of Bengal.
+
+{{< gallery >}}
+
+## Related
+
+- [S-MODE — Bulletin of the AMS (2025)](https://doi.org/10.1175/BAMS-D-23-0178.1)
+- [Bay of Bengal 2018 monsoon onset — Bulletin of the AMS (2021)](https://doi.org/10.1175/BAMS-D-20-0113.1)
+
+[&larr; All research](../research.qmd)

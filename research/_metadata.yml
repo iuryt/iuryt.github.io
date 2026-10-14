@@ -1,0 +1,2 @@
+# Project pages: load GLightbox so carousel images open full-screen on click
+include-after-body: _lightbox.html

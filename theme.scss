@@ -1,0 +1,584 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+
+// Palette: near-black text, one ocean-blue accent, quiet grays
+$ink:    #1d2733;
+$muted:  #5f6b78;
+$line:   #e6e9ed;
+$accent: #0b5f86;
+
+// One color per research line; *-text shades keep small labels readable (WCAG AA)
+$line-data:     #0b5f86;  // ocean blue
+$line-dyn:      #2a9d8f;  // sea green
+$line-dyn-text: #1f7a6f;
+$line-imp:      #e76f51;  // coral
+$line-imp-text: #c2492b;
+
+$body-bg:    #ffffff;
+$body-color: $ink;
+$link-color: $accent;
+$primary:    $accent;
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, serif;
+$headings-font-weight:   600;
+$headings-color:         $ink;
+$font-size-root:         17px;
+$line-height-base:       1.65;
+
+$navbar-bg:              #ffffff;
+$navbar-fg:              $muted;
+$navbar-hl:              $ink;
+$navbar-brand-color:     $ink;
+
+$footer-bg:              #ffffff;
+$footer-fg:              $muted;
+
+/*-- scss:rules --*/
+
+// --- Research-line colors (exposed as CSS variables) ---
+:root, .line-data { --line: #{$line-data}; --line-text: #{$line-data}; --line-tint: #{rgba($line-data, 0.06)}; }
+.line-dyn  { --line: #{$line-dyn}; --line-text: #{$line-dyn-text}; --line-tint: #{rgba($line-dyn, 0.07)}; }
+.line-imp  { --line: #{$line-imp}; --line-text: #{$line-imp-text}; --line-tint: #{rgba($line-imp, 0.07)}; }
+
+// --- Navbar ---
+.navbar {
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+}
+
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+}
+
+.navbar .nav-link {
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link.active {
+  color: $accent !important;
+}
+
+// --- Layout ---
+main.content {
+  max-width: 820px;
+}
+
+// --- Title block ---
+#title-block-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid $line;
+}
+
+.quarto-title .title {
+  font-size: 2.4rem;
+}
+
+.quarto-title .subtitle {
+  font-family: $font-family-sans-serif;
+  color: $muted;
+  font-size: 1.05rem;
+  font-weight: 400;
+  padding-top: 0.25rem;
+}
+
+// --- Typography ---
+h2 {
+  margin-top: 2.75rem;
+  border-bottom: none;
+}
+
+h2.anchored,
+h3.anchored {
+  scroll-margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+hr {
+  border-top: 1px solid $line;
+  opacity: 1;
+  margin: 3rem 0;
+}
+
+// Small uppercase label, used for section eyebrows
+.eyebrow {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: $muted;
+}
+
+// --- Home page ---
+.about-entity {
+  .about-link {
+    font-size: 0.85rem;
+    border-color: $line !important;
+    color: $muted !important;
+    &:hover { color: $accent !important; border-color: $accent !important; text-decoration: none; }
+  }
+}
+
+.hero-role {
+  color: $muted;
+  font-size: 1.05rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// --- Carousels (research page) ---
+.carousel {
+  margin: 1.25rem 0 0.5rem 0;
+  border: 1px solid $line;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.carousel-inner img,
+.carousel-inner video {
+  height: 460px;
+  object-fit: contain;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img,
+  .carousel-inner video { height: 300px; }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner img,
+  .carousel-inner video { height: 200px; }
+}
+
+// Captions sit below the image as plain muted text
+.carousel-caption {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.75rem 3.5rem;
+  background: #fafbfc;
+  border-top: 1px solid $line;
+  color: $muted;
+  font-size: 0.88rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p { margin: 0; }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption { font-size: 0.82rem; padding: 0.6rem 3rem; }
+}
+
+// Arrows live in the caption strip, so they never cover the figure
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem;
+  top: auto;
+  bottom: 0;
+  height: 3rem;
+  opacity: 0.6;
+  &:hover { opacity: 1; }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(1);
+  width: 1rem;
+  height: 1rem;
+}
+
+// --- Software page ---
+.software-preview {
+  display: block;
+  width: 100%;
+  margin: 1rem auto 1.5rem auto;
+  border: 1px solid $line;
+  border-radius: 8px;
+}
+
+// --- Blog ---
+.quarto-post .quarto-figure,
+.quarto-post p > img {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quarto-listing-default .quarto-post {
+  border-bottom: 1px solid $line;
+  padding-bottom: 1.5rem;
+}
+
+.quarto-post .listing-title {
+  font-family: $headings-font-family;
+}
+
+// --- Footer ---
+.nav-footer {
+  border-top: 1px solid $line;
+  font-size: 0.85rem;
+}
+
+// --- Home page polish ---
+.about-entity h1.title {
+  font-size: 2.1rem;
+  white-space: nowrap;
+}
+
+
+#listing-recent-posts thead { display: none; }
+#listing-recent-posts td.listing-date { color: $muted; white-space: nowrap; width: 7rem; }
+
+@media (max-width: 768px) {
+  .about-entity .about-links {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .about-entity .about-link { width: auto !important; flex: 0 0 auto; }
+}
+
+// --- Three research lines (home + research page) ---
+.research-lines {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  p { margin: 0; display: flex; }
+
+  a {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.1rem;
+    border: 1px solid $line;
+    border-top: 3px solid var(--line);
+    border-radius: 6px;
+    background: var(--line-tint);
+    color: $muted;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    transition: border-color 0.15s, transform 0.15s;
+
+    strong {
+      display: inline-block;
+      margin-bottom: 0.35rem;
+      font-family: $headings-font-family;
+      font-size: 1.1rem;
+      color: $ink;
+    }
+
+    strong { color: var(--line-text); }
+
+    &:hover { text-decoration: none; transform: translateY(-2px); border-color: var(--line); }
+  }
+}
+
+@media (max-width: 768px) {
+  .research-lines { grid-template-columns: 1fr; }
+}
+
+.research-figure {
+  margin: 1.25rem 0;
+  border: 1px solid $line;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img { max-height: 460px; object-fit: contain; background: #fff; }
+
+  figcaption {
+    padding: 0.75rem 1rem;
+    background: #fafbfc;
+    border-top: 1px solid $line;
+    color: $muted;
+    font-size: 0.88rem;
+    text-align: center;
+  }
+}
+
+// --- Selected publications ---
+.selected-pubs {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.25rem 0 1rem 0;
+}
+
+.pub {
+  padding: 1rem 1.25rem;
+  border: 1px solid $line;
+  border-left: 3px solid var(--line);
+  border-radius: 6px;
+  transition: background 0.15s;
+
+  &:hover { background: var(--line-tint); }
+
+  p { margin: 0; }
+
+  .pub-line {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--line-text);
+  }
+
+  .pub-title {
+    display: inline-block;
+    margin: 0.2rem 0 0.3rem 0;
+    font-family: $headings-font-family;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: $ink;
+    &:hover { color: $accent; }
+  }
+
+  .pub-authors, .pub-venue { font-size: 0.88rem; color: $muted; }
+  .pub-authors strong { color: $ink; font-weight: 600; }
+}
+
+// --- BibBase (full publication list) restyle ---
+.bibbase-wrap {
+  margin-top: 1rem;
+
+  #bibbase_header,
+  .bibbase_msg,
+  .bibbase_stats_paper,
+  .bibbase_page,
+  .bibbase_icon,
+  #spinner { display: none !important; }
+
+  // the "generated by" credit stays, just quieter
+  #bibbase > div[style*="float: right"] { opacity: 0.55; font-size: 11px !important; }
+
+  .bibbase_group_whole { margin-top: 1.5rem; }
+
+  .bibbase_group {
+    background: none !important;
+    text-shadow: none !important;
+    font-style: normal !important;
+    padding: 0 0 0.4rem 0 !important;
+    margin: 0 0 0.75rem 0 !important;
+    border-bottom: 1px solid $line;
+    border-radius: 0 !important;
+    font-family: $headings-font-family;
+    font-size: 1.35rem !important;
+    font-weight: 600;
+    color: $ink;
+    cursor: pointer;
+  }
+
+  .bibbase_group_head_icon { font-size: 0.9rem; color: $muted; }
+  .bibbase_group_count { font-family: $font-family-sans-serif; font-size: 0.85rem; color: $muted; }
+
+  .bibbase_paper {
+    margin: 0 0 1.1rem 0 !important;
+    font-size: 0.9rem;
+    color: $muted;
+    line-height: 1.5;
+  }
+
+  .bibbase_paper_title {
+    display: block;
+    a { color: $ink; font-weight: 600; font-size: 0.98rem; }
+    a:hover { color: $accent; }
+  }
+
+  .bibbase_paper_author { display: block; }
+
+  // highlight my name in author lists
+  a.bibbase.author.link { color: $ink; font-weight: 600; pointer-events: none; }
+
+  .bibbase_paper_content a {
+    display: inline-block;
+    margin: 0.3rem 0.25rem 0 0;
+    padding: 0.05rem 0.55rem;
+    border: 1px solid $line;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    color: $muted;
+    text-transform: lowercase;
+    &:hover { color: $accent; border-color: $accent; text-decoration: none; }
+  }
+
+  .well {
+    background: #fafbfc;
+    border: 1px solid $line;
+    border-radius: 6px;
+    box-shadow: none;
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    pre { font-size: 0.78rem; margin: 0; }
+  }
+}
+
+// --- Group page ---
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.25rem 0;
+}
+
+.person {
+  width: 160px;
+  text-align: center;
+
+  p { margin: 0; }
+  .person-photo { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 0.6rem; }
+  .person-name { display: block; font-family: $headings-font-family; font-weight: 600; color: $ink; }
+  .person-role { display: block; font-size: 0.85rem; color: $muted; }
+}
+
+section#related { margin-top: 2.5rem; }
+
+// --- Color accents per research line ---
+
+// Research page: colored marker before each line's heading, and on its cards
+@each $id, $cls in (data: line-data, physics: line-dyn, impacts: line-imp) {
+  section##{$id} { @extend .#{$cls}; }
+}
+
+section#data > h2, section#physics > h2, section#impacts > h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  &::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: var(--line);
+  }
+}
+
+#listing-list-data .card, #listing-list-physics .card, #listing-list-impacts .card {
+  border-top: 3px solid var(--line);
+}
+
+#listing-list-data, #listing-list-physics, #listing-list-impacts {
+  .card:hover .card-title { color: var(--line-text); }
+}
+
+// Project subpages: line name in color, carousel tinted
+body.line-data, body.line-dyn, body.line-imp {
+  .quarto-title .subtitle {
+    color: var(--line-text);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.8rem;
+    order: -1;
+  }
+  .carousel, .research-figure { border-top: 3px solid var(--line); }
+  .carousel-caption, .research-figure figcaption { background: var(--line-tint); }
+}
+
+// A touch of warmth elsewhere: coral underline on the active nav item
+.navbar .nav-link.active {
+  box-shadow: inset 0 -2px 0 $line-imp;
+}
+
+// --- Bigger research figures ---
+
+// Research page: wider column so cards (and their figures) get more room
+body.research-wide main.content, body.research-wide #title-block-header { max-width: 1120px; margin-left: auto; margin-right: auto; width: 100%; }
+body.research-wide main.content > p,
+body.research-wide main.content section > p { max-width: 820px; }
+
+// Research cards: a small auto-advancing gallery on top of each card
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+@media (max-width: 991px) { .research-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .research-cards { grid-template-columns: 1fr; } }
+
+.research-card {
+  display: block;
+  color: inherit;
+  border: 1px solid $line;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(29, 39, 51, 0.08);
+  }
+
+  .card-gallery {
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid $line;
+    border-radius: 0;
+    background: #ffffff;
+  }
+
+  .card-gallery img,
+  .card-gallery video {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+    padding: 0.5rem;
+    background: #ffffff;
+  }
+
+  .card-body { padding: 1rem 1.1rem 1.2rem; }
+  .card-title { font-family: $headings-font-family; font-size: 1.08rem; color: $ink; margin-bottom: 0.35rem; }
+  .card-text { color: $muted; font-size: 0.88rem; line-height: 1.5; margin: 0; }
+}
+
+#listing-list-teaching .card { border-top: 3px solid $line-data; }
+
+@media (max-width: 768px) {
+  .research-card .card-gallery img,
+  .research-card .card-gallery video { height: 220px; }
+}
+
+// Project pages: galleries break out of the text column and grow taller
+body.line-data, body.line-dyn, body.line-imp {
+  .carousel, .research-figure {
+    width: min(1100px, calc(100vw - 32px));
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .carousel-inner img, .carousel-inner video, .research-figure img {
+    height: 620px;
+    max-height: none;
+    cursor: zoom-in;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-inner img, .carousel-inner video, .research-figure img { height: 320px; }
+  }
+}

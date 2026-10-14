@@ -1,0 +1,28 @@
+---
+title: "Global eddy–profile database"
+subtitle: "Data-driven methods"
+description: "Merging 4.2 million vertical profiles with 35 million altimetry-tracked eddy observations."
+image: ../img/research/multiscale1.webp
+body-classes: line-data
+gallery:
+  - src: ../img/research/multiscale1.webp
+    caption: "Matching altimetry-tracked mesoscale vortices and vertical profiles"
+  - src: ../img/research/eddy_578618_composite.png
+    caption: "Eddy composite analysis combining large ocean datasets and scalable visualization workflows"
+order: 1
+---
+
+Satellite altimetry reveals ocean mesoscale eddies globally, but their vertical structure remains a computational challenge to study at scale. I combined the World Ocean Database with an altimetry-derived eddy atlas (META3.2 DT), using high-performance computing and parallel Python to match more than 4.2 million quality-controlled profiles to more than 35 million vortex observations.
+
+The resulting dataset is open and cloud-native: it is distributed as an [Icechunk](https://icechunk.io/) repository, a versioned, transactional Zarr store that lets anyone open and subset the full database directly from cloud storage with xarray, without downloading files first. Optimizing this layout cut typical data-access times from minutes to seconds (see the [Earthmover write-up](https://www.earthmover.io/blog/from-10-minutes-to-10-seconds-how-woods-hole-scientists-used-icechunk-to-optimize-ocean-data-access)). The code to reproduce and extend the matching is also available.
+
+The database supports research on eddy vertical structure, heat, mass and nutrient transport, and water-mass subduction.
+
+{{< gallery >}}
+
+## Related
+
+- [Paper — Earth System Science Data (2026)](https://doi.org/10.5194/essd-18-1089-2026)
+- [From 10 minutes to 10 seconds: how Woods Hole scientists used Icechunk to optimize ocean data access (Earthmover blog)](https://www.earthmover.io/blog/from-10-minutes-to-10-seconds-how-woods-hole-scientists-used-icechunk-to-optimize-ocean-data-access)
+
+[&larr; All research](../research.qmd)
