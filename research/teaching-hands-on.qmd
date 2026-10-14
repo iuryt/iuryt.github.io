@@ -8,9 +8,7 @@ gallery:
   - src: ../img/research/rotating_earth.mp4
     caption: "Data visualization for teaching: latitude dependence of planetary vorticity"
   - src: ../img/research/hurricanes_global.webp
-    caption: "Global hurricane tracks from IBTrACS, colored by category — lecture materials on hurricanes"
-  - src: ../img/research/hurricane_tracks.webp
-    caption: "Exploring real-world examples along with theory (hurricane tracks)"
+    caption: "Exploring real-world examples along with theory: global hurricane tracks from IBTrACS, colored by category"
   - src: ../img/research/rotating1.webp
     caption: "Exploring real-world examples along with theory (winds and ocean gyres)"
   - src: ../img/research/rotating2.webp
