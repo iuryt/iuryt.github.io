@@ -7,3 +7,9 @@ docs/
 !.pixi/config.toml
 
 **/*.quarto_ipynb
+
+# stray Quarto render artifacts at the project root (a failed render can leave these)
+/site_libs/
+/*.html
+/*_files/
+/*-listing.json

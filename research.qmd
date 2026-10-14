@@ -35,16 +35,16 @@ listing:
 My research sits at the intersection of physical oceanography, data science, and high-performance computing. It is organized around three connected lines: building the data and methods to observe the ocean across scales, using them to understand multiscale physical processes, and tracing how those processes affect ecosystems and human populations.
 
 ::: {.research-lines}
-[**1 · Data-driven**<br>Fusion, distribution, and interpretation of large ocean datasets](#data){.line-data}
+[**1 · Data-driven**<br>Methods to fuse, share, and interpret large ocean datasets](#data){.line-data}
 
 [**2 · Dynamics**<br>Multiscale physical processes in the ocean and atmosphere](#physics){.line-dyn}
 
 [**3 · Impacts**<br>How multiscale physics affects ecosystems and people](#impacts){.line-imp}
 :::
 
-## Data fusion, distribution & interpretation {#data}
+## Data-driven methods {#data}
 
-I develop methods to merge observations from many platforms, distribute them as open, analysis-ready datasets, and interpret them at scale with high-performance and cloud computing.
+I develop methods and open-source tools to fuse observations and model output across platforms and scales, distribute them as open, analysis-ready datasets, and extract insight from them using high-performance and cloud computing, statistics, machine learning, and scalable visualization.
 
 :::{#list-data}
 :::

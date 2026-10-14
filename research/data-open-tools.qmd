@@ -1,6 +1,6 @@
 ---
 title: "Open, cloud-native data tools"
-subtitle: "Data fusion, distribution & interpretation"
+subtitle: "Data-driven methods"
 description: "Software and workflows that make large ocean datasets fast to access and easy to explore."
 image: ../img/software/whereisswot.png
 body-classes: line-data

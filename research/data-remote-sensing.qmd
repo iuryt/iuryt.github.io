@@ -1,6 +1,6 @@
 ---
 title: "Multiplatform ocean observations"
-subtitle: "Data fusion, distribution & interpretation"
+subtitle: "Data-driven methods"
 description: "Combining satellites, aircraft, and autonomous platforms into a consistent view of the upper ocean."
 image: ../img/research/multiscale2.webp
 body-classes: line-data
