@@ -26,7 +26,7 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 
 - `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon
 - `index.qmd` — landing page: `trestles` about hero, research-interest chips, and a "Recent news" table listing of the latest posts
-- `research.qmd` — research page organized by three lines (Data / Dynamics / Impacts, plus Teaching), each a Quarto grid listing of cards pulled from `research/<line>-*.qmd` (sorted by an `order` field)
+- `research.qmd` — research page organized by three lines (Data-driven / Dynamics / Impacts, plus Teaching), each a Quarto grid listing of cards pulled from `research/<line>-*.qmd` (sorted by an `order` field)
 - `research/*.qmd` — one subpage per project (title, subtitle = research line, description, card `image`, `order`), with its Bootstrap carousel and related papers
 - `group.qmd` — group page: people + "Join us" (grad students, postdocs, undergrads, how to get in touch by email)
 - `blog.qmd` — blog listing page, auto-discovers posts from `posts/` directory
@@ -49,7 +49,7 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 - Minimalist look: white background, light navbar with a hairline border, no title banners (`title-block-banner: false` globally)
 - Fonts: Inter (body/UI) + Source Serif 4 (headings), loaded from Google Fonts in `theme.scss`
 - Palette: ink `#1d2733`, muted `#5f6b78`, hairlines `#e6e9ed`, accent `#0b5f86` (ocean blue)
-- Research-line color coding: Data = blue `#0b5f86`, Dynamics = sea green `#2a9d8f`, Impacts = coral `#e76f51` (darker `*-text` shades for small labels). Classes `.line-data` / `.line-dyn` / `.line-imp` set CSS variables `--line`, `--line-text`, `--line-tint`; used on the research-line blocks, selected publications, research section headings/cards, and project subpages (`body-classes` in their front matter). Active navbar item has a coral underline.
+- Research-line color coding: Data-driven = blue `#0b5f86`, Dynamics = sea green `#2a9d8f`, Impacts = coral `#e76f51` (darker `*-text` shades for small labels). Classes `.line-data` / `.line-dyn` / `.line-imp` set CSS variables `--line`, `--line-text`, `--line-tint`; used on the research-line blocks, selected publications, research section headings/cards, and project subpages (`body-classes` in their front matter). Active navbar item has a coral underline.
 - Carousels: thin border, muted caption strip below the image with the prev/next arrows inside it (responsive heights 460/300/200px)
 - Post computational output is frozen by default (`freeze: true` in `posts/_metadata.yml`)
 
