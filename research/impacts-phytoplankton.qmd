@@ -2,7 +2,7 @@
 title: "Physics–phytoplankton interactions"
 subtitle: "Impacts on ecosystems & people"
 description: "How submesoscale physics delivers nutrients that fuel the spring phytoplankton bloom."
-image: ../img/research/mle2.webp
+image: ../img/social/impacts-phytoplankton.jpg
 body-classes: line-imp
 gallery:
   - src: ../img/research/mle2.webp

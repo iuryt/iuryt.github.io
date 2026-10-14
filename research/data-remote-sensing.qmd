@@ -2,7 +2,7 @@
 title: "Multiplatform ocean observations"
 subtitle: "Data-driven methods"
 description: "Combining satellites, aircraft, and autonomous platforms into a consistent view of the upper ocean."
-image: ../img/research/multiscale2.webp
+image: ../img/social/data-remote-sensing.jpg
 body-classes: line-data
 gallery:
   - src: ../img/research/multiscale2.webp

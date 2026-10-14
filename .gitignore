@@ -13,3 +13,6 @@ docs/
 /*.html
 /*_files/
 /*-listing.json
+
+# downloaded fonts and intermediate images for scripts/
+.cache/

@@ -8,6 +8,9 @@ version = "0.1.0"
 [tasks]
 preview = "quarto preview --port 4242"
 render = "quarto render && cp -v pubs.bib docs/"
+social-fonts = "mkdir -p .cache/fonts && cd .cache/fonts && curl -sL -o SourceSerif4.ttf 'https://github.com/google/fonts/raw/main/ofl/sourceserif4/SourceSerif4%5Bopsz,wght%5D.ttf' && curl -sL -o Inter.ttf 'https://github.com/google/fonts/raw/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf'"
+icons = "python scripts/make_icons.py svg favicon.svg && python scripts/make_icons.py png favicon.png 64 && python scripts/make_icons.py png apple-touch-icon.png 180 && python scripts/make_icons.py png .cache/icon_512.png 512"
+social-images = { cmd = "python scripts/make_social_card.py profile.jpg .cache/icon_512.png .cache/fonts img/social/card.jpg && python scripts/make_project_cards.py .", depends-on = ["social-fonts", "icons"] }
 optimize-images = "for f in img/research/*.png img/research/*.jpg; do [ -f \"$f\" ] && magick \"$f\" -resize '1200x1200>' -quality 85 \"${f%.*}.webp\" && rm \"$f\"; done"
 
 [dependencies]

@@ -15,6 +15,7 @@ The project uses [pixi](https://pixi.sh/) for dependency management. Quarto, Pyt
 - **Full render:** `pixi run render` — runs `quarto render`, then copies `resume/` and `pubs.bib` into `docs/`
 - **Render single file:** `pixi run quarto render <file>.qmd`
 - **Re-render with code execution:** `pixi run quarto render <file>.qmd --execute` (forces re-execution of Python cells, ignoring frozen cache)
+- **Regenerate icons and link-preview images:** `pixi run social-images` — rebuilds `favicon.svg`/`favicon.png`/`apple-touch-icon.png` (eddy spiral), the site card `img/social/card.jpg` (from `profile.jpg`), and one card per research project in `img/social/` (first gallery image), updating each project's `image:`. Run after changing the photo, title/role, or a project's first figure. Fonts are downloaded to `.cache/` (gitignored); scripts live in `scripts/`
 - **Optimize new images:** `pixi run optimize-images` — converts any PNG/JPG in `img/research/` to WebP (max 1200px wide, quality 85) and removes the originals
 - **Deploy:** Push to `main`; GitHub Actions (`.github/workflows/publish.yml`) renders and publishes to `gh-pages` branch automatically. CI does NOT re-execute Python code — it uses frozen outputs from `_freeze/`.
 
@@ -24,7 +25,7 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 
 ### Key Files
 
-- `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon, Open Graph / Twitter Card link previews (default image `profile.jpg`; pages with an `image:` use their own)
+- `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon, Open Graph / Twitter Card link previews (default image `img/social/card.jpg`, 1200×630; the home page sets its own `open-graph`/`twitter-card` title and image; project pages use their `img/social/<slug>.jpg`). Use JPG/PNG for preview images — WhatsApp/LinkedIn may not render WebP. `_includes/icons.html` adds the SVG favicon and the iOS home-screen icon
 - `index.qmd` — landing page: `trestles` about hero, research-interest chips, and a "Recent news" table listing of the latest posts
 - `research.qmd` — research page organized by three lines (Data-driven / Dynamics / Impacts, plus Teaching), each a Quarto grid listing of cards pulled from `research/<line>-*.qmd` (sorted by an `order` field)
 - `research/*.qmd` — one subpage per project. Front matter: `title`, `subtitle` (research line), `description`, `image` (social/fallback), `body-classes` (line color), `order`, and `gallery:` — a list of `{src: ../img/research/..., caption: "..."}` (`.mp4` sources render as autoplaying video). The page body uses `{{< gallery >}}` to render the gallery as a carousel. **To add a figure to a project, add one item to its `gallery:` list** — both the project page and its card on the Research page update.
