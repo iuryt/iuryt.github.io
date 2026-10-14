@@ -3,6 +3,7 @@ title: "Air–sea interaction and cold pools"
 subtitle: "Multiscale ocean & atmosphere dynamics"
 description: "Atmospheric cold pools, air–sea fluxes, and monsoon variability in the Bay of Bengal."
 image: ../img/research/coldpool1.webp
+body-classes: line-dyn
 order: 3
 ---
 

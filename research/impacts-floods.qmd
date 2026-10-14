@@ -3,6 +3,7 @@ title: "Extreme events and flood impacts"
 subtitle: "Impacts on ecosystems & people"
 description: "The causes of the May 2024 floods in southern Brazil and who was affected."
 image: ../img/research/large_scale.webp
+body-classes: line-imp
 order: 1
 ---
 

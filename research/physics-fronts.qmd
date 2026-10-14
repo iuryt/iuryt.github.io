@@ -3,6 +3,7 @@ title: "Submesoscale fronts and mixed layer eddies"
 subtitle: "Multiscale ocean & atmosphere dynamics"
 description: "GPU-accelerated simulations of fronts, instabilities, and restratification of the upper ocean."
 image: ../img/research/mle0.webp
+body-classes: line-dyn
 order: 2
 ---
 

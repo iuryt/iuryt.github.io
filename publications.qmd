@@ -7,7 +7,7 @@ subtitle: "Peer-reviewed articles and datasets"
 
 ::: {.selected-pubs}
 
-::: {.pub}
+::: {.pub .line-data}
 [Data]{.pub-line}
 
 [Integrating Global Ocean Profiles and Altimetry-Derived Eddies](https://doi.org/10.5194/essd-18-1089-2026){.pub-title}
@@ -17,7 +17,7 @@ subtitle: "Peer-reviewed articles and datasets"
 [*Earth System Science Data*, 2026]{.pub-venue}
 :::
 
-::: {.pub}
+::: {.pub .line-dyn}
 [Dynamics]{.pub-line}
 
 [Atmospheric Cold Pools in the Bay of Bengal](https://doi.org/10.1175/JAS-D-22-0041.1){.pub-title}
@@ -27,7 +27,7 @@ subtitle: "Peer-reviewed articles and datasets"
 [*Journal of the Atmospheric Sciences*, 2022]{.pub-venue}
 :::
 
-::: {.pub}
+::: {.pub .line-dyn}
 [Dynamics]{.pub-line}
 
 [Mixed layer eddies supply nutrients to enhance the spring phytoplankton bloom](https://doi.org/10.3389/fmars.2022.825027){.pub-title}
@@ -37,7 +37,7 @@ subtitle: "Peer-reviewed articles and datasets"
 [*Frontiers in Marine Science*, 2022]{.pub-venue}
 :::
 
-::: {.pub}
+::: {.pub .line-imp}
 [Impacts]{.pub-line}
 
 [The May 2024 Flood Disaster in Southern Brazil: Causes, Impacts, and SWOT-Based Volume Estimation](https://doi.org/10.1029/2024GL112442){.pub-title}
@@ -47,7 +47,7 @@ subtitle: "Peer-reviewed articles and datasets"
 [*Geophysical Research Letters*, 2025]{.pub-venue}
 :::
 
-::: {.pub}
+::: {.pub .line-imp}
 [Impacts]{.pub-line}
 
 [The longest documented travel by a West Indian manatee](https://doi.org/10.1017/S0025315424000894){.pub-title}

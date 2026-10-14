@@ -3,6 +3,7 @@ title: "Mesoscale and submesoscale vortices"
 subtitle: "Multiscale ocean & atmosphere dynamics"
 description: "How ocean vortices form, evolve, interact with topography, and move water around."
 image: ../img/research/multiscale3.webp
+body-classes: line-dyn
 order: 1
 ---
 

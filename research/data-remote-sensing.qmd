@@ -3,6 +3,7 @@ title: "Multiplatform ocean observations"
 subtitle: "Data fusion, distribution & interpretation"
 description: "Combining satellites, aircraft, and autonomous platforms into a consistent view of the upper ocean."
 image: ../img/research/multiscale2.webp
+body-classes: line-data
 order: 2
 ---
 

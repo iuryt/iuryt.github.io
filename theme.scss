@@ -8,6 +8,13 @@ $muted:  #5f6b78;
 $line:   #e6e9ed;
 $accent: #0b5f86;
 
+// One color per research line; *-text shades keep small labels readable (WCAG AA)
+$line-data:     #0b5f86;  // ocean blue
+$line-dyn:      #2a9d8f;  // sea green
+$line-dyn-text: #1f7a6f;
+$line-imp:      #e76f51;  // coral
+$line-imp-text: #c2492b;
+
 $body-bg:    #ffffff;
 $body-color: $ink;
 $link-color: $accent;
@@ -29,6 +36,11 @@ $footer-bg:              #ffffff;
 $footer-fg:              $muted;
 
 /*-- scss:rules --*/
+
+// --- Research-line colors (exposed as CSS variables) ---
+:root, .line-data { --line: #{$line-data}; --line-text: #{$line-data}; --line-tint: #{rgba($line-data, 0.06)}; }
+.line-dyn  { --line: #{$line-dyn}; --line-text: #{$line-dyn-text}; --line-tint: #{rgba($line-dyn, 0.07)}; }
+.line-imp  { --line: #{$line-imp}; --line-text: #{$line-imp-text}; --line-tint: #{rgba($line-imp, 0.07)}; }
 
 // --- Navbar ---
 .navbar {
@@ -259,8 +271,9 @@ hr {
     width: 100%;
     padding: 1rem 1.1rem;
     border: 1px solid $line;
-    border-top: 3px solid $accent;
+    border-top: 3px solid var(--line);
     border-radius: 6px;
+    background: var(--line-tint);
     color: $muted;
     font-size: 0.9rem;
     line-height: 1.45;
@@ -274,7 +287,9 @@ hr {
       color: $ink;
     }
 
-    &:hover { text-decoration: none; transform: translateY(-2px); border-color: $accent; }
+    strong { color: var(--line-text); }
+
+    &:hover { text-decoration: none; transform: translateY(-2px); border-color: var(--line); }
   }
 }
 
@@ -338,8 +353,11 @@ hr {
 .pub {
   padding: 1rem 1.25rem;
   border: 1px solid $line;
-  border-left: 3px solid $accent;
+  border-left: 3px solid var(--line);
   border-radius: 6px;
+  transition: background 0.15s;
+
+  &:hover { background: var(--line-tint); }
 
   p { margin: 0; }
 
@@ -348,7 +366,7 @@ hr {
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: $accent;
+    color: var(--line-text);
   }
 
   .pub-title {
@@ -460,4 +478,53 @@ hr {
   .person-role { display: block; font-size: 0.85rem; color: $muted; }
 }
 
-.carousel + h2, .research-figure + h2 { margin-top: 2.5rem; }
+section#related { margin-top: 2.5rem; }
+
+// --- Color accents per research line ---
+
+// Research page: colored marker before each line's heading, and on its cards
+@each $id, $cls in (data: line-data, physics: line-dyn, impacts: line-imp) {
+  section##{$id} { @extend .#{$cls}; }
+}
+
+section#data > h2, section#physics > h2, section#impacts > h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  &::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: var(--line);
+  }
+}
+
+#listing-list-data .card, #listing-list-physics .card, #listing-list-impacts .card {
+  border-top: 3px solid var(--line);
+}
+
+#listing-list-data, #listing-list-physics, #listing-list-impacts {
+  .card:hover .card-title { color: var(--line-text); }
+}
+
+// Project subpages: line name in color, carousel tinted
+body.line-data, body.line-dyn, body.line-imp {
+  .quarto-title .subtitle {
+    color: var(--line-text);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.8rem;
+    order: -1;
+  }
+  .carousel, .research-figure { border-top: 3px solid var(--line); }
+  .carousel-caption, .research-figure figcaption { background: var(--line-tint); }
+}
+
+// A touch of warmth elsewhere: coral underline on the active nav item
+.navbar .nav-link.active {
+  box-shadow: inset 0 -2px 0 $line-imp;
+}

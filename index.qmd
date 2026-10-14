@@ -54,11 +54,11 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passi
 My research follows three connected lines:
 
 ::: {.research-lines}
-[**1 · Data**<br>Fusion, distribution, and interpretation of large ocean datasets](research.qmd#data)
+[**1 · Data**<br>Fusion, distribution, and interpretation of large ocean datasets](research.qmd#data){.line-data}
 
-[**2 · Dynamics**<br>Multiscale physical processes in the ocean and atmosphere](research.qmd#physics)
+[**2 · Dynamics**<br>Multiscale physical processes in the ocean and atmosphere](research.qmd#physics){.line-dyn}
 
-[**3 · Impacts**<br>How multiscale physics affects ecosystems and people](research.qmd#impacts)
+[**3 · Impacts**<br>How multiscale physics affects ecosystems and people](research.qmd#impacts){.line-imp}
 :::
 
 [Learn more about my research &rarr;](research.qmd) &nbsp;·&nbsp; [Join the group &rarr;](group.qmd)

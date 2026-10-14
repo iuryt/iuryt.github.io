@@ -3,6 +3,7 @@ title: "Global eddy–profile database"
 subtitle: "Data fusion, distribution & interpretation"
 description: "Merging 4.2 million vertical profiles with 35 million altimetry-tracked eddy observations."
 image: ../img/research/multiscale1.webp
+body-classes: line-data
 order: 1
 ---
 

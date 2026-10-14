@@ -3,6 +3,7 @@ title: "Ocean currents and wildlife conservation"
 subtitle: "Impacts on ecosystems & people"
 description: "How ocean currents shaped Tico's 4,000 km journey — the longest recorded for a released manatee."
 image: ../img/research/oceanus.webp
+body-classes: line-imp
 order: 2
 ---
 
