@@ -15,11 +15,11 @@ See the [Software](../software.qmd) page for apps, tutorials, and write-ups.
 <div id="carousel-data-open-tools" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/software/whereisswot.png" class="d-block w-100" alt="Where is SWOT? — an interactive app to track the SWOT satellite">
+      <a href="../img/software/whereisswot.png" class="lightbox" data-gallery="data-open-tools" data-description="Where is SWOT? — an interactive app to track the SWOT satellite"><img src="../img/software/whereisswot.png" class="d-block w-100" alt="Where is SWOT? — an interactive app to track the SWOT satellite"></a>
       <div class="carousel-caption"><p>Where is SWOT? — an interactive app to track the SWOT satellite</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/software/earthmover_blog.jpg" class="d-block w-100" alt="Using Icechunk to speed up ocean data access from minutes to seconds">
+      <a href="../img/software/earthmover_blog.jpg" class="lightbox" data-gallery="data-open-tools" data-description="Using Icechunk to speed up ocean data access from minutes to seconds"><img src="../img/software/earthmover_blog.jpg" class="d-block w-100" alt="Using Icechunk to speed up ocean data access from minutes to seconds"></a>
       <div class="carousel-caption"><p>Using Icechunk to speed up ocean data access from minutes to seconds</p></div>
     </div>
   </div>

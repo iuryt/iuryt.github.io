@@ -27,7 +27,8 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 - `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon
 - `index.qmd` — landing page: `trestles` about hero, research-interest chips, and a "Recent news" table listing of the latest posts
 - `research.qmd` — research page organized by three lines (Data-driven / Dynamics / Impacts, plus Teaching), each a Quarto grid listing of cards pulled from `research/<line>-*.qmd` (sorted by an `order` field)
-- `research/*.qmd` — one subpage per project (title, subtitle = research line, description, card `image`, `order`), with its Bootstrap carousel and related papers
+- `research/*.qmd` — one subpage per project (title, subtitle = research line, description, card `image`, `order`), with its Bootstrap carousel and related papers. Carousel images are wrapped in `<a class="lightbox" data-gallery=...>` for click-to-zoom; GLightbox is loaded from cdnjs via `research/_metadata.yml` → `research/_lightbox.html`. Galleries break out of the text column (up to 1100px wide, 620px tall)
+- `research.qmd` uses `page-layout: full` + `body-classes: research-wide` (capped at 1120px) so cards are larger; the Teaching card is raw HTML with the autoplaying `rotating_earth.mp4` globe as its thumbnail
 - `group.qmd` — group page: people + "Join us" (grad students, postdocs, undergrads, how to get in touch by email)
 - `blog.qmd` — blog listing page, auto-discovers posts from `posts/` directory
 - `publications.qmd` — hand-curated "Selected publications" (one per research line) on top, then the full BibBase list from `references.bib` (BibBase reads the file from the `main` branch on GitHub), restyled via `.bibbase-wrap` rules in `theme.scss`

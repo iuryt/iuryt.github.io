@@ -15,11 +15,11 @@ The code for the simulations and analyses is available on [GitHub](https://githu
 <div id="carousel-physics-fronts" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/research/mle0.webp" class="d-block w-100" alt="Modeling submesoscale fronts and biogeochemical tracers">
+      <a href="../img/research/mle0.webp" class="lightbox" data-gallery="physics-fronts" data-description="Modeling submesoscale fronts and biogeochemical tracers"><img src="../img/research/mle0.webp" class="d-block w-100" alt="Modeling submesoscale fronts and biogeochemical tracers"></a>
       <div class="carousel-caption"><p>Modeling submesoscale fronts and biogeochemical tracers</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/mle1.webp" class="d-block w-100" alt="Submesoscale process modeling on GPUs">
+      <a href="../img/research/mle1.webp" class="lightbox" data-gallery="physics-fronts" data-description="Submesoscale process modeling on GPUs"><img src="../img/research/mle1.webp" class="d-block w-100" alt="Submesoscale process modeling on GPUs"></a>
       <div class="carousel-caption"><p>Submesoscale process modeling on GPUs</p></div>
     </div>
   </div>

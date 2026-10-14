@@ -11,7 +11,7 @@ Coupling a submesoscale-resolving model with a simple ecosystem model, I showed 
 
 ```{=html}
 <figure class="research-figure">
-  <img src="../img/research/mle2.webp" class="d-block w-100" alt="Biophysical interactions at multiscale ocean processes">
+  <a href="../img/research/mle2.webp" class="lightbox" data-gallery="impacts-phytoplankton" data-description="Biophysical interactions at multiscale ocean processes"><img src="../img/research/mle2.webp" class="d-block w-100" alt="Biophysical interactions at multiscale ocean processes"></a>
   <figcaption>Biophysical interactions at multiscale ocean processes</figcaption>
 </figure>
 ```

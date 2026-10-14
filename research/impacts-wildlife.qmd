@@ -15,23 +15,23 @@ The story was featured in [Oceanus Magazine](../posts/saving-tico/index.qmd) and
 <div id="carousel-impacts-wildlife" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/research/oceanus.webp" class="d-block w-100" alt="Saving Tico — Oceanus Magazine. Illustration by Charin Park">
+      <a href="../img/research/oceanus.webp" class="lightbox" data-gallery="impacts-wildlife" data-description="Saving Tico — Oceanus Magazine. Illustration by Charin Park"><img src="../img/research/oceanus.webp" class="d-block w-100" alt="Saving Tico — Oceanus Magazine. Illustration by Charin Park"></a>
       <div class="carousel-caption"><p>Saving Tico — Oceanus Magazine. Illustration by Charin Park</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/tico1.webp" class="d-block w-100" alt="Tico and his brother from rescue to release">
+      <a href="../img/research/tico1.webp" class="lightbox" data-gallery="impacts-wildlife" data-description="Tico and his brother from rescue to release"><img src="../img/research/tico1.webp" class="d-block w-100" alt="Tico and his brother from rescue to release"></a>
       <div class="carousel-caption"><p>Tico and his brother from rescue to release</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/tico2.webp" class="d-block w-100" alt="Tico's journey from Brazil to Venezuela">
+      <a href="../img/research/tico2.webp" class="lightbox" data-gallery="impacts-wildlife" data-description="Tico's journey from Brazil to Venezuela"><img src="../img/research/tico2.webp" class="d-block w-100" alt="Tico's journey from Brazil to Venezuela"></a>
       <div class="carousel-caption"><p>Tico's journey from Brazil to Venezuela</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/tico3.webp" class="d-block w-100" alt="Tico surfing the currents">
+      <a href="../img/research/tico3.webp" class="lightbox" data-gallery="impacts-wildlife" data-description="Tico surfing the currents"><img src="../img/research/tico3.webp" class="d-block w-100" alt="Tico surfing the currents"></a>
       <div class="carousel-caption"><p>Tico surfing the currents</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/tico4.webp" class="d-block w-100" alt="Freshwater availability">
+      <a href="../img/research/tico4.webp" class="lightbox" data-gallery="impacts-wildlife" data-description="Freshwater availability"><img src="../img/research/tico4.webp" class="d-block w-100" alt="Freshwater availability"></a>
       <div class="carousel-caption"><p>Freshwater availability</p></div>
     </div>
   </div>

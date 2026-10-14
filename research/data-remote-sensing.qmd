@@ -15,15 +15,15 @@ Examples include airborne surface velocity and temperature from the NASA S-MODE 
 <div id="carousel-data-remote-sensing" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/research/multiscale2.webp" class="d-block w-100" alt="High-resolution Doppler Scatterometer and airborne sea surface temperatures">
+      <a href="../img/research/multiscale2.webp" class="lightbox" data-gallery="data-remote-sensing" data-description="High-resolution Doppler Scatterometer and airborne sea surface temperatures"><img src="../img/research/multiscale2.webp" class="d-block w-100" alt="High-resolution Doppler Scatterometer and airborne sea surface temperatures"></a>
       <div class="carousel-caption"><p>High-resolution Doppler Scatterometer and airborne sea surface temperatures</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/bams1.webp" class="d-block w-100" alt="Sea surface temperature (SST) biases from satellite products">
+      <a href="../img/research/bams1.webp" class="lightbox" data-gallery="data-remote-sensing" data-description="Sea surface temperature (SST) biases from satellite products"><img src="../img/research/bams1.webp" class="d-block w-100" alt="Sea surface temperature (SST) biases from satellite products"></a>
       <div class="carousel-caption"><p>Sea surface temperature (SST) biases from satellite products</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/bams2.webp" class="d-block w-100" alt="Combining multiple datasets to investigate SST biases">
+      <a href="../img/research/bams2.webp" class="lightbox" data-gallery="data-remote-sensing" data-description="Combining multiple datasets to investigate SST biases"><img src="../img/research/bams2.webp" class="d-block w-100" alt="Combining multiple datasets to investigate SST biases"></a>
       <div class="carousel-caption"><p>Combining multiple datasets to investigate SST biases</p></div>
     </div>
   </div>

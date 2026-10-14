@@ -15,15 +15,15 @@ The work was featured in [Oceanus Magazine](../posts/southbrazilflood/index.qmd)
 <div id="carousel-impacts-floods" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/research/large_scale.webp" class="d-block w-100" alt="Atmospheric conditions behind the May 2024 extreme rainfall">
+      <a href="../img/research/large_scale.webp" class="lightbox" data-gallery="impacts-floods" data-description="Atmospheric conditions behind the May 2024 extreme rainfall"><img src="../img/research/large_scale.webp" class="d-block w-100" alt="Atmospheric conditions behind the May 2024 extreme rainfall"></a>
       <div class="carousel-caption"><p>Atmospheric conditions behind the May 2024 extreme rainfall</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/swot_depth.webp" class="d-block w-100" alt="SWOT mission data: estimating extreme flood event volumes">
+      <a href="../img/research/swot_depth.webp" class="lightbox" data-gallery="impacts-floods" data-description="SWOT mission data: estimating extreme flood event volumes"><img src="../img/research/swot_depth.webp" class="d-block w-100" alt="SWOT mission data: estimating extreme flood event volumes"></a>
       <div class="carousel-caption"><p>SWOT mission data: estimating extreme flood event volumes</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/landcover_vulnerable.webp" class="d-block w-100" alt="Geophysical and socioeconomic data: assessing extreme event impacts">
+      <a href="../img/research/landcover_vulnerable.webp" class="lightbox" data-gallery="impacts-floods" data-description="Geophysical and socioeconomic data: assessing extreme event impacts"><img src="../img/research/landcover_vulnerable.webp" class="d-block w-100" alt="Geophysical and socioeconomic data: assessing extreme event impacts"></a>
       <div class="carousel-caption"><p>Geophysical and socioeconomic data: assessing extreme event impacts</p></div>
     </div>
   </div>

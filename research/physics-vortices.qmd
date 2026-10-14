@@ -13,23 +13,23 @@ Ocean vortices span scales from hundreds of kilometers down to a few kilometers.
 <div id="carousel-physics-vortices" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/research/multiscale3.webp" class="d-block w-100" alt="Tracking origin and paths of mesoscale vortices">
+      <a href="../img/research/multiscale3.webp" class="lightbox" data-gallery="physics-vortices" data-description="Tracking origin and paths of mesoscale vortices"><img src="../img/research/multiscale3.webp" class="d-block w-100" alt="Tracking origin and paths of mesoscale vortices"></a>
       <div class="carousel-caption"><p>Tracking origin and paths of mesoscale vortices</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/multiscale4.webp" class="d-block w-100" alt="The evolution and growth rate of mesoscale vortices">
+      <a href="../img/research/multiscale4.webp" class="lightbox" data-gallery="physics-vortices" data-description="The evolution and growth rate of mesoscale vortices"><img src="../img/research/multiscale4.webp" class="d-block w-100" alt="The evolution and growth rate of mesoscale vortices"></a>
       <div class="carousel-caption"><p>The evolution and growth rate of mesoscale vortices</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/multiscale5.webp" class="d-block w-100" alt="Investigating topographic submesoscale vortices close to the Equator">
+      <a href="../img/research/multiscale5.webp" class="lightbox" data-gallery="physics-vortices" data-description="Investigating topographic submesoscale vortices close to the Equator"><img src="../img/research/multiscale5.webp" class="d-block w-100" alt="Investigating topographic submesoscale vortices close to the Equator"></a>
       <div class="carousel-caption"><p>Investigating topographic submesoscale vortices close to the Equator</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/multiscale6.webp" class="d-block w-100" alt="Time series processing and analysis of ocean moorings">
+      <a href="../img/research/multiscale6.webp" class="lightbox" data-gallery="physics-vortices" data-description="Time series processing and analysis of ocean moorings"><img src="../img/research/multiscale6.webp" class="d-block w-100" alt="Time series processing and analysis of ocean moorings"></a>
       <div class="carousel-caption"><p>Time series processing and analysis of ocean moorings</p></div>
     </div>
     <div class="carousel-item">
-      <img src="../img/research/turbulence.webp" class="d-block w-100" alt="Two-dimensional forced turbulence simulations">
+      <a href="../img/research/turbulence.webp" class="lightbox" data-gallery="physics-vortices" data-description="Two-dimensional forced turbulence simulations"><img src="../img/research/turbulence.webp" class="d-block w-100" alt="Two-dimensional forced turbulence simulations"></a>
       <div class="carousel-caption"><p>Two-dimensional forced turbulence simulations</p></div>
     </div>
   </div>
