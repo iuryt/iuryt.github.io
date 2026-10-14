@@ -21,7 +21,7 @@ about:
       href: http://lattes.cnpq.br/2966459341524804
     - icon: envelope
       text: Email
-      href: mailto:iury@whoi.edu
+      href: mailto:iury@udel.edu
 listing:
   id: recent-posts
   contents: posts
@@ -51,19 +51,17 @@ I am also [hemophilic](https://en.wikipedia.org/wiki/Haemophilia), and I'm passi
 
 ## Research
 
-At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes — from ocean vortices and extreme weather events to oceanographic influences on human populations and marine wildlife.
+My research follows three connected lines:
 
-::: {.interests}
-- Extreme events
-- Ocean eddies & submesoscale dynamics
-- Biophysical interactions
-- Air–sea interaction
-- Satellite oceanography
-- Wildlife conservation
-- Scientific software
+::: {.research-lines}
+[**1 · Data**<br>Fusion, distribution, and interpretation of large ocean datasets](research.qmd#data)
+
+[**2 · Dynamics**<br>Multiscale physical processes in the ocean and atmosphere](research.qmd#physics)
+
+[**3 · Impacts**<br>How multiscale physics affects ecosystems and people](research.qmd#impacts)
 :::
 
-[Learn more about my research &rarr;](research.qmd)
+[Learn more about my research &rarr;](research.qmd) &nbsp;·&nbsp; [Join the group &rarr;](group.qmd)
 
 ## Recent news
 

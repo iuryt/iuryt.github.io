@@ -1,9 +1,56 @@
 ---
 title: "Publications"
+subtitle: "Peer-reviewed articles and datasets"
 ---
 
-<br>
+## Selected publications
 
+::: {.selected-pubs}
+
+::: {.pub}
+[Data]{.pub-line}
+
+[Integrating Global Ocean Profiles and Altimetry-Derived Eddies](https://doi.org/10.5194/essd-18-1089-2026){.pub-title}
+
+[**Simoes-Sousa, I. T.**, Rocha, C. B., Tandon, A., Schmidt, A.]{.pub-authors}
+
+[*Earth System Science Data*, 2026]{.pub-venue}
+:::
+
+::: {.pub}
+[Dynamics]{.pub-line}
+
+[The Brazil Current mesoscale eddies: Altimetry-based characterization and tracking](https://doi.org/10.1016/j.dsr.2022.103947){.pub-title}
+
+[Uchoa, I., **Simoes-Sousa, I. T.**, da Silveira, I. C. A.]{.pub-authors}
+
+[*Deep-Sea Research Part I*, 2022]{.pub-venue}
+:::
+
+::: {.pub}
+[Impacts]{.pub-line}
+
+[The May 2024 Flood Disaster in Southern Brazil: Causes, Impacts, and SWOT-Based Volume Estimation](https://doi.org/10.1029/2024GL112442){.pub-title}
+
+[**Simoes-Sousa, I. T.**, Camargo, C. M. L., Távora, J., Piffer-Braga, A., Farrar, J. T., Pavelsky, T. M.]{.pub-authors}
+
+[*Geophysical Research Letters*, 2025]{.pub-venue}
+:::
+
+::: {.pub}
+[Impacts]{.pub-line}
+
+[The longest documented travel by a West Indian manatee](https://doi.org/10.1017/S0025315424000894){.pub-title}
+
+[Carvalho, C., **Simoes-Sousa, I. T.**, Santos, L. P., et al.]{.pub-authors}
+
+[*Journal of the Marine Biological Association of the UK*, 2024]{.pub-venue}
+:::
+
+:::
+
+## All publications
+
+::: {.bibbase-wrap}
 <script src="https://bibbase.org/show?bib=https://github.com/iuryt/iuryt.github.io/raw/main/references.bib&jsonp=1&theme=default"></script>
-
-<br>
+:::

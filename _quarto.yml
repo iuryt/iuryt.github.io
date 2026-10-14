@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "research/*.qmd"
     - "posts/**/*.qmd"
   preview:
     port: 4242
@@ -17,14 +18,14 @@ website:
     right:
       - text: Research
         href: research.qmd
-      - text: Software
-        href: software.qmd
       - text: Publications
         href: publications.qmd
+      - text: Software
+        href: software.qmd
+      - text: Group
+        href: group.qmd
       - text: Blog
         href: blog.qmd
-      - text: Schedule
-        href: booking.qmd
       - text: CV
         href: https://drive.google.com/file/d/1XN-B0u18Rt03k9A7tMaLTz_6z72f6oqr/view?usp=sharing
         target: _blank

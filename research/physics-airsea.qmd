@@ -1,0 +1,44 @@
+---
+title: "Air–sea interaction and cold pools"
+subtitle: "Multiscale ocean & atmosphere dynamics"
+description: "Atmospheric cold pools, air–sea fluxes, and monsoon variability in the Bay of Bengal."
+image: ../img/research/coldpool1.webp
+order: 3
+---
+
+Using mooring data from the Bay of Bengal, I characterized hundreds of atmospheric cold pools — evaporatively driven downdrafts from precipitating clouds — and quantified their role in air–sea heat fluxes and monsoon rainfall, from both atmospheric and oceanographic perspectives.
+
+```{=html}
+<div id="carousel-physics-airsea" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/research/coldpool1.webp" class="d-block w-100" alt="Intense atmospheric cold pool in the Bay of Bengal">
+      <div class="carousel-caption"><p>Intense atmospheric cold pool in the Bay of Bengal</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/research/coldpool2.webp" class="d-block w-100" alt="Identifying atmospheric cold pools from time series">
+      <div class="carousel-caption"><p>Identifying atmospheric cold pools from time series</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/research/coldpool3.webp" class="d-block w-100" alt="The role of atmospheric cold pools on air-sea heat fluxes">
+      <div class="carousel-caption"><p>The role of atmospheric cold pools on air-sea heat fluxes</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/research/coldpool4.webp" class="d-block w-100" alt="Estimating the direction of propagation of cold pools">
+      <div class="carousel-caption"><p>Estimating the direction of propagation of cold pools</p></div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-physics-airsea" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-physics-airsea" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
+
+## Related
+
+- [Atmospheric Cold Pools in the Bay of Bengal — J. Atmospheric Sciences (2022)](https://doi.org/10.1175/JAS-D-22-0041.1)
+
+[&larr; All research](../research.qmd)

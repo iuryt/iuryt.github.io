@@ -1,0 +1,38 @@
+---
+title: "Global eddy–profile database"
+subtitle: "Data fusion, distribution & interpretation"
+description: "Merging 4.2 million vertical profiles with 35 million altimetry-tracked eddy observations."
+image: ../img/research/multiscale1.webp
+order: 1
+---
+
+Satellite altimetry reveals ocean mesoscale eddies globally, but their vertical structure remains a computational challenge to study at scale. I combined the World Ocean Database with an altimetry-derived eddy atlas (META3.2 DT), using high-performance computing and parallel Python to match more than 4.2 million quality-controlled profiles to more than 35 million vortex observations.
+
+The resulting dataset is openly available for download and through OPeNDAP, along with the code to reproduce and extend the matching. It supports research on eddy vertical structure, heat, mass and nutrient transport, and water-mass subduction.
+
+```{=html}
+<div id="carousel-data-eddy-profiles" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/research/multiscale1.webp" class="d-block w-100" alt="Matching altimetry-tracked mesoscale vortices and vertical profiles">
+      <div class="carousel-caption"><p>Matching altimetry-tracked mesoscale vortices and vertical profiles</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/research/eddy_578618_composite.png" class="d-block w-100" alt="Eddy composite analysis combining large ocean datasets and scalable visualization workflows">
+      <div class="carousel-caption"><p>Eddy composite analysis combining large ocean datasets and scalable visualization workflows</p></div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-data-eddy-profiles" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-data-eddy-profiles" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
+
+## Related
+
+- [Paper — Earth System Science Data (2026)](https://doi.org/10.5194/essd-18-1089-2026)
+
+[&larr; All research](../research.qmd)

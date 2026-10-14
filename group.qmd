@@ -1,0 +1,52 @@
+---
+title: "Group"
+subtitle: "Computational oceanography at the University of Delaware"
+---
+
+We study the ocean across scales, combining observations, numerical models, and high-performance computing. Our work follows three connected lines: building methods to merge and interpret large ocean datasets, understanding multiscale physical processes, and tracing how they affect ecosystems and people. [Read more about our research &rarr;](research.qmd)
+
+## People
+
+::: {.people}
+
+::: {.person}
+![](profile.jpg){.person-photo}
+
+[Iury Simoes-Sousa]{.person-name}
+
+[Principal Investigator]{.person-role}
+:::
+
+:::
+
+The group is just getting started — if you'd like to be part of it, see below.
+
+## Join us
+
+I am looking for curious, motivated people who enjoy working at the boundary between physics, data, and computing. You don't need to be an oceanographer already: students from physics, mathematics, engineering, computer science, atmospheric and environmental sciences are very welcome.
+
+### Graduate students
+
+Prospective MS and PhD students interested in any of the three research lines are encouraged to reach out before applying to the University of Delaware graduate program. Experience with programming (ideally Python) is helpful; enthusiasm for learning it is essential.
+
+### Postdocs
+
+I'm happy to discuss postdoctoral opportunities, including co-developing proposals for independent fellowships.
+
+### Undergraduates
+
+Undergraduate research projects are available for students who want hands-on experience with real ocean data, numerical simulations, and open-source scientific software.
+
+### What we value
+
+- **Open science** — code, data, and workflows that others can reuse
+- **Collaboration** — across disciplines, institutions, and countries
+- **Care** — a supportive, inclusive environment where asking questions is part of the work
+
+### How to get in touch
+
+Send me an [email](mailto:iury@udel.edu) with:
+
+1. A short paragraph on what you'd like to work on and why
+2. Your CV
+3. Optionally, a link to code or a project you're proud of (e.g., GitHub)

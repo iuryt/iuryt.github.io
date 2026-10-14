@@ -1,0 +1,22 @@
+---
+title: "Physics–phytoplankton interactions"
+subtitle: "Impacts on ecosystems & people"
+description: "How submesoscale physics delivers nutrients that fuel the spring phytoplankton bloom."
+image: ../img/research/mle2.webp
+order: 3
+---
+
+Coupling a submesoscale-resolving model with a simple ecosystem model, I showed that mixed layer eddies do more than restratify the upper ocean: they supply nutrients from below the mixed layer that enhance the spring bloom — an exchange that coarse-resolution models miss even with eddy parameterizations.
+
+```{=html}
+<figure class="research-figure">
+  <img src="../img/research/mle2.webp" class="d-block w-100" alt="Biophysical interactions at multiscale ocean processes">
+  <figcaption>Biophysical interactions at multiscale ocean processes</figcaption>
+</figure>
+```
+
+## Related
+
+- [Mixed layer eddies supply nutrients to enhance the spring phytoplankton bloom — Frontiers in Marine Science (2022)](https://doi.org/10.3389/fmars.2022.825027)
+
+[&larr; All research](../research.qmd)
