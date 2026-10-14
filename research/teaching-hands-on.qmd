@@ -4,47 +4,25 @@ subtitle: "Teaching"
 description: "Rotating tanks, real-world examples, and visualizations to teach geophysical fluid dynamics."
 image: ../img/research/rotating2.webp
 body-classes: line-data
+gallery:
+  - src: ../img/research/rotating_earth.mp4
+    caption: "Data visualization for teaching: latitude dependence of planetary vorticity"
+  - src: ../img/research/hurricanes_global.webp
+    caption: "Global hurricane tracks from IBTrACS, colored by category — lecture materials on hurricanes"
+  - src: ../img/research/hurricane_tracks.webp
+    caption: "Exploring real-world examples along with theory (hurricane tracks)"
+  - src: ../img/research/rotating1.webp
+    caption: "Exploring real-world examples along with theory (winds and ocean gyres)"
+  - src: ../img/research/rotating2.webp
+    caption: "Laboratory experiments on rotating tanks"
+  - src: ../img/research/rotating3.webp
+    caption: "Simulating laboratory experiments on rotating tanks"
 order: 1
 ---
 
 I enjoy finding creative ways to teach ocean and environmental sciences: exploring theory with laboratory experiments, analyzing real-world examples, and running idealized numerical simulations.
 
-```{=html}
-<div id="carousel-teaching-hands-on" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <video class="d-block w-100" autoplay loop muted playsinline><source src="../img/research/rotating_earth.mp4" type="video/mp4"></video>
-      <div class="carousel-caption"><p>Data visualization for teaching: latitude dependence of planetary vorticity</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/hurricanes_global.webp" class="lightbox" data-gallery="teaching-hands-on" data-description="Global hurricane tracks from IBTrACS, colored by category"><img src="../img/research/hurricanes_global.webp" class="d-block w-100" alt="Global hurricane tracks from IBTrACS, colored by category"></a>
-      <div class="carousel-caption"><p>Global hurricane tracks from IBTrACS, colored by category — lecture materials on hurricanes</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/hurricane_tracks.webp" class="lightbox" data-gallery="teaching-hands-on" data-description="Exploring real-world examples along with theory (hurricane tracks)"><img src="../img/research/hurricane_tracks.webp" class="d-block w-100" alt="Exploring real-world examples along with theory (hurricane tracks)"></a>
-      <div class="carousel-caption"><p>Exploring real-world examples along with theory (hurricane tracks)</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/rotating1.webp" class="lightbox" data-gallery="teaching-hands-on" data-description="Exploring real-world examples along with theory (winds and ocean gyres)"><img src="../img/research/rotating1.webp" class="d-block w-100" alt="Exploring real-world examples along with theory (winds and ocean gyres)"></a>
-      <div class="carousel-caption"><p>Exploring real-world examples along with theory (winds and ocean gyres)</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/rotating2.webp" class="lightbox" data-gallery="teaching-hands-on" data-description="Laboratory experiments on rotating tanks"><img src="../img/research/rotating2.webp" class="d-block w-100" alt="Laboratory experiments on rotating tanks"></a>
-      <div class="carousel-caption"><p>Laboratory experiments on rotating tanks</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/rotating3.webp" class="lightbox" data-gallery="teaching-hands-on" data-description="Simulating laboratory experiments on rotating tanks"><img src="../img/research/rotating3.webp" class="d-block w-100" alt="Simulating laboratory experiments on rotating tanks"></a>
-      <div class="carousel-caption"><p>Simulating laboratory experiments on rotating tanks</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-teaching-hands-on" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-teaching-hands-on" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

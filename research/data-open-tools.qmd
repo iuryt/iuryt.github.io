@@ -4,6 +4,11 @@ subtitle: "Data-driven methods"
 description: "Software and workflows that make large ocean datasets fast to access and easy to explore."
 image: ../img/software/whereisswot.png
 body-classes: line-data
+gallery:
+  - src: ../img/software/whereisswot.png
+    caption: "Where is SWOT? — an interactive app to track the SWOT satellite"
+  - src: ../img/software/earthmover_blog.jpg
+    caption: "Using Icechunk to speed up ocean data access from minutes to seconds"
 order: 3
 ---
 
@@ -11,26 +16,7 @@ I build open-source tools and workflows that make large datasets accessible to o
 
 See the [Software](../software.qmd) page for apps, tutorials, and write-ups.
 
-```{=html}
-<div id="carousel-data-open-tools" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="../img/software/whereisswot.png" class="lightbox" data-gallery="data-open-tools" data-description="Where is SWOT? — an interactive app to track the SWOT satellite"><img src="../img/software/whereisswot.png" class="d-block w-100" alt="Where is SWOT? — an interactive app to track the SWOT satellite"></a>
-      <div class="carousel-caption"><p>Where is SWOT? — an interactive app to track the SWOT satellite</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/software/earthmover_blog.jpg" class="lightbox" data-gallery="data-open-tools" data-description="Using Icechunk to speed up ocean data access from minutes to seconds"><img src="../img/software/earthmover_blog.jpg" class="d-block w-100" alt="Using Icechunk to speed up ocean data access from minutes to seconds"></a>
-      <div class="carousel-caption"><p>Using Icechunk to speed up ocean data access from minutes to seconds</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-data-open-tools" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-data-open-tools" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

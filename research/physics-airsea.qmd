@@ -4,39 +4,21 @@ subtitle: "Multiscale ocean & atmosphere dynamics"
 description: "Atmospheric cold pools, air–sea fluxes, and monsoon variability in the Bay of Bengal."
 image: ../img/research/coldpool1.webp
 body-classes: line-dyn
+gallery:
+  - src: ../img/research/coldpool1.webp
+    caption: "Intense atmospheric cold pool in the Bay of Bengal"
+  - src: ../img/research/coldpool2.webp
+    caption: "Identifying atmospheric cold pools from time series"
+  - src: ../img/research/coldpool3.webp
+    caption: "The role of atmospheric cold pools on air-sea heat fluxes"
+  - src: ../img/research/coldpool4.webp
+    caption: "Estimating the direction of propagation of cold pools"
 order: 3
 ---
 
 Using mooring data from the Bay of Bengal, I characterized hundreds of atmospheric cold pools — evaporatively driven downdrafts from precipitating clouds — and quantified their role in air–sea heat fluxes and monsoon rainfall, from both atmospheric and oceanographic perspectives.
 
-```{=html}
-<div id="carousel-physics-airsea" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="../img/research/coldpool1.webp" class="lightbox" data-gallery="physics-airsea" data-description="Intense atmospheric cold pool in the Bay of Bengal"><img src="../img/research/coldpool1.webp" class="d-block w-100" alt="Intense atmospheric cold pool in the Bay of Bengal"></a>
-      <div class="carousel-caption"><p>Intense atmospheric cold pool in the Bay of Bengal</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/coldpool2.webp" class="lightbox" data-gallery="physics-airsea" data-description="Identifying atmospheric cold pools from time series"><img src="../img/research/coldpool2.webp" class="d-block w-100" alt="Identifying atmospheric cold pools from time series"></a>
-      <div class="carousel-caption"><p>Identifying atmospheric cold pools from time series</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/coldpool3.webp" class="lightbox" data-gallery="physics-airsea" data-description="The role of atmospheric cold pools on air-sea heat fluxes"><img src="../img/research/coldpool3.webp" class="d-block w-100" alt="The role of atmospheric cold pools on air-sea heat fluxes"></a>
-      <div class="carousel-caption"><p>The role of atmospheric cold pools on air-sea heat fluxes</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/coldpool4.webp" class="lightbox" data-gallery="physics-airsea" data-description="Estimating the direction of propagation of cold pools"><img src="../img/research/coldpool4.webp" class="d-block w-100" alt="Estimating the direction of propagation of cold pools"></a>
-      <div class="carousel-caption"><p>Estimating the direction of propagation of cold pools</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-physics-airsea" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-physics-airsea" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

@@ -4,6 +4,11 @@ subtitle: "Multiscale ocean & atmosphere dynamics"
 description: "GPU-accelerated simulations of fronts, instabilities, and restratification of the upper ocean."
 image: ../img/research/mle0.webp
 body-classes: line-dyn
+gallery:
+  - src: ../img/research/mle0.webp
+    caption: "Modeling submesoscale fronts and biogeochemical tracers"
+  - src: ../img/research/mle1.webp
+    caption: "Submesoscale process modeling on GPUs"
 order: 2
 ---
 
@@ -11,26 +16,7 @@ Mixed layer eddies arising from baroclinic instability of fronts convert horizon
 
 The code for the simulations and analyses is available on [GitHub](https://github.com/iuryt/NorthAtlanticBloom).
 
-```{=html}
-<div id="carousel-physics-fronts" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="../img/research/mle0.webp" class="lightbox" data-gallery="physics-fronts" data-description="Modeling submesoscale fronts and biogeochemical tracers"><img src="../img/research/mle0.webp" class="d-block w-100" alt="Modeling submesoscale fronts and biogeochemical tracers"></a>
-      <div class="carousel-caption"><p>Modeling submesoscale fronts and biogeochemical tracers</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/mle1.webp" class="lightbox" data-gallery="physics-fronts" data-description="Submesoscale process modeling on GPUs"><img src="../img/research/mle1.webp" class="d-block w-100" alt="Submesoscale process modeling on GPUs"></a>
-      <div class="carousel-caption"><p>Submesoscale process modeling on GPUs</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-physics-fronts" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-physics-fronts" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

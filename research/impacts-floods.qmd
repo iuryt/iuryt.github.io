@@ -4,6 +4,13 @@ subtitle: "Impacts on ecosystems & people"
 description: "The causes of the May 2024 floods in southern Brazil and who was affected."
 image: ../img/research/large_scale.webp
 body-classes: line-imp
+gallery:
+  - src: ../img/research/large_scale.webp
+    caption: "Atmospheric conditions behind the May 2024 extreme rainfall"
+  - src: ../img/research/swot_depth.webp
+    caption: "SWOT mission data: estimating extreme flood event volumes"
+  - src: ../img/research/landcover_vulnerable.webp
+    caption: "Geophysical and socioeconomic data: assessing extreme event impacts"
 order: 1
 ---
 
@@ -11,30 +18,7 @@ In May 2024, southern Brazil experienced a devastating flood caused by a rare co
 
 The work was featured in [Oceanus Magazine](../posts/southbrazilflood/index.qmd).
 
-```{=html}
-<div id="carousel-impacts-floods" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="../img/research/large_scale.webp" class="lightbox" data-gallery="impacts-floods" data-description="Atmospheric conditions behind the May 2024 extreme rainfall"><img src="../img/research/large_scale.webp" class="d-block w-100" alt="Atmospheric conditions behind the May 2024 extreme rainfall"></a>
-      <div class="carousel-caption"><p>Atmospheric conditions behind the May 2024 extreme rainfall</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/swot_depth.webp" class="lightbox" data-gallery="impacts-floods" data-description="SWOT mission data: estimating extreme flood event volumes"><img src="../img/research/swot_depth.webp" class="d-block w-100" alt="SWOT mission data: estimating extreme flood event volumes"></a>
-      <div class="carousel-caption"><p>SWOT mission data: estimating extreme flood event volumes</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/landcover_vulnerable.webp" class="lightbox" data-gallery="impacts-floods" data-description="Geophysical and socioeconomic data: assessing extreme event impacts"><img src="../img/research/landcover_vulnerable.webp" class="d-block w-100" alt="Geophysical and socioeconomic data: assessing extreme event impacts"></a>
-      <div class="carousel-caption"><p>Geophysical and socioeconomic data: assessing extreme event impacts</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-impacts-floods" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-impacts-floods" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

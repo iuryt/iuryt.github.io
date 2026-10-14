@@ -4,6 +4,11 @@ subtitle: "Data-driven methods"
 description: "Merging 4.2 million vertical profiles with 35 million altimetry-tracked eddy observations."
 image: ../img/research/multiscale1.webp
 body-classes: line-data
+gallery:
+  - src: ../img/research/multiscale1.webp
+    caption: "Matching altimetry-tracked mesoscale vortices and vertical profiles"
+  - src: ../img/research/eddy_578618_composite.png
+    caption: "Eddy composite analysis combining large ocean datasets and scalable visualization workflows"
 order: 1
 ---
 
@@ -11,26 +16,7 @@ Satellite altimetry reveals ocean mesoscale eddies globally, but their vertical 
 
 The resulting dataset is openly available for download and through OPeNDAP, along with the code to reproduce and extend the matching. It supports research on eddy vertical structure, heat, mass and nutrient transport, and water-mass subduction.
 
-```{=html}
-<div id="carousel-data-eddy-profiles" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="../img/research/multiscale1.webp" class="lightbox" data-gallery="data-eddy-profiles" data-description="Matching altimetry-tracked mesoscale vortices and vertical profiles"><img src="../img/research/multiscale1.webp" class="d-block w-100" alt="Matching altimetry-tracked mesoscale vortices and vertical profiles"></a>
-      <div class="carousel-caption"><p>Matching altimetry-tracked mesoscale vortices and vertical profiles</p></div>
-    </div>
-    <div class="carousel-item">
-      <a href="../img/research/eddy_578618_composite.png" class="lightbox" data-gallery="data-eddy-profiles" data-description="Eddy composite analysis combining large ocean datasets and scalable visualization workflows"><img src="../img/research/eddy_578618_composite.png" class="d-block w-100" alt="Eddy composite analysis combining large ocean datasets and scalable visualization workflows"></a>
-      <div class="carousel-caption"><p>Eddy composite analysis combining large ocean datasets and scalable visualization workflows</p></div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-data-eddy-profiles" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-data-eddy-profiles" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-```
+{{< gallery >}}
 
 ## Related
 

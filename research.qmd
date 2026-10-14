@@ -4,24 +4,19 @@ subtitle: "From data, to dynamics, to impacts"
 listing:
   - id: list-data
     contents: "research/data-*.qmd"
-    type: grid
-    grid-columns: 3
-    image-height: 220px
-    fields: [image, title, description]
+    template: research-cards.ejs
     sort: "order"
   - id: list-physics
     contents: "research/physics-*.qmd"
-    type: grid
-    grid-columns: 3
-    image-height: 220px
-    fields: [image, title, description]
+    template: research-cards.ejs
     sort: "order"
   - id: list-impacts
     contents: "research/impacts-*.qmd"
-    type: grid
-    grid-columns: 3
-    image-height: 220px
-    fields: [image, title, description]
+    template: research-cards.ejs
+    sort: "order"
+  - id: list-teaching
+    contents: "research/teaching-*.qmd"
+    template: research-cards.ejs
     sort: "order"
 body-classes: research-wide
 page-layout: full
@@ -60,16 +55,5 @@ I study how multiscale ocean and atmosphere physics shapes extreme events, marin
 
 ## Teaching {#teaching}
 
-```{=html}
-<div class="teaching-card">
-  <a href="research/teaching-hands-on.qmd" class="card">
-    <video autoplay loop muted playsinline aria-label="Rotating Earth showing the latitude dependence of planetary vorticity">
-      <source src="img/research/rotating_earth.mp4" type="video/mp4">
-    </video>
-    <div class="card-body">
-      <h5 class="card-title">Hands-on ocean science teaching</h5>
-      <p class="card-text">Rotating tanks, real-world data like global hurricane tracks, and visualizations to teach geophysical fluid dynamics.</p>
-    </div>
-  </a>
-</div>
-```
+:::{#list-teaching}
+:::

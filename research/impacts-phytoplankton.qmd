@@ -4,17 +4,15 @@ subtitle: "Impacts on ecosystems & people"
 description: "How submesoscale physics delivers nutrients that fuel the spring phytoplankton bloom."
 image: ../img/research/mle2.webp
 body-classes: line-imp
+gallery:
+  - src: ../img/research/mle2.webp
+    caption: "Biophysical interactions at multiscale ocean processes"
 order: 3
 ---
 
 Coupling a submesoscale-resolving model with a simple ecosystem model, I showed that mixed layer eddies do more than restratify the upper ocean: they supply nutrients from below the mixed layer that enhance the spring bloom — an exchange that coarse-resolution models miss even with eddy parameterizations.
 
-```{=html}
-<figure class="research-figure">
-  <a href="../img/research/mle2.webp" class="lightbox" data-gallery="impacts-phytoplankton" data-description="Biophysical interactions at multiscale ocean processes"><img src="../img/research/mle2.webp" class="d-block w-100" alt="Biophysical interactions at multiscale ocean processes"></a>
-  <figcaption>Biophysical interactions at multiscale ocean processes</figcaption>
-</figure>
-```
+{{< gallery >}}
 
 ## Related
 
