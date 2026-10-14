@@ -20,11 +20,21 @@ subtitle: "Peer-reviewed articles and datasets"
 ::: {.pub}
 [Dynamics]{.pub-line}
 
-[The Brazil Current mesoscale eddies: Altimetry-based characterization and tracking](https://doi.org/10.1016/j.dsr.2022.103947){.pub-title}
+[Atmospheric Cold Pools in the Bay of Bengal](https://doi.org/10.1175/JAS-D-22-0041.1){.pub-title}
 
-[Uchoa, I., **Simoes-Sousa, I. T.**, da Silveira, I. C. A.]{.pub-authors}
+[**Simoes-Sousa, I. T.**, Tandon, A., Buckley, J., Sengupta, D., Shroyer, E., de Szoeke, S. P.]{.pub-authors}
 
-[*Deep-Sea Research Part I*, 2022]{.pub-venue}
+[*Journal of the Atmospheric Sciences*, 2022]{.pub-venue}
+:::
+
+::: {.pub}
+[Dynamics]{.pub-line}
+
+[Mixed layer eddies supply nutrients to enhance the spring phytoplankton bloom](https://doi.org/10.3389/fmars.2022.825027){.pub-title}
+
+[**Simoes-Sousa, I. T.**, Tandon, A., Pereira, F., Lazaneo, C. Z., Mahadevan, A.]{.pub-authors}
+
+[*Frontiers in Marine Science*, 2022]{.pub-venue}
 :::
 
 ::: {.pub}
