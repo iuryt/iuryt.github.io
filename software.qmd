@@ -1,7 +1,6 @@
 ---
 title: "Software"
 subtitle: "Tools and interactive applications"
-title-block-banner: true
 ---
 
 This page highlights software tools and interactive applications related to my research and scientific computing work.

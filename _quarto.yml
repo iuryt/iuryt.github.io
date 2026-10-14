@@ -8,12 +8,12 @@ project:
     port: 4242
     browser: false
 website:
-  title: "iuryt" 
+  title: "Iury Simoes-Sousa"
   site-url: https://iuryt.github.io
   description: "Iury Simoes-Sousa — Physical and Computational Oceanographer"
   favicon: favicon.png
   navbar:
-    background: dark
+    background: light
     right:
       - text: Research
         href: research.qmd
@@ -30,12 +30,16 @@ website:
         target: _blank
       - icon: github
         href: https://github.com/iuryt
+  page-footer:
+    left: "© 2026 Iury Simoes-Sousa"
+    right:
+      - text: "Built with Quarto"
+        href: https://quarto.org
   google-analytics: "G-714SSKLCZ0"
 
 
 format:
   html:
-    theme: cosmo
-    linkcolor: '#2a6496'
-    css: styles.css
+    theme: [cosmo, theme.scss]
+    title-block-banner: false
 

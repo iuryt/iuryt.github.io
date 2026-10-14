@@ -1,7 +1,6 @@
 ---
 title: "Schedule"
 subtitle: "Schedule a meeting"
-title-block-banner: true
 ---
 
 Use the scheduler below to book a time with me directly on Google Calendar.

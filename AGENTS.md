@@ -24,13 +24,13 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 
 ### Key Files
 
-- `_quarto.yml` — site-wide config: navbar (dark background), theme (`cosmo`), CSS, Google Analytics, favicon
-- `index.qmd` — landing page with bio and a brief intro linking to the research page
+- `_quarto.yml` — site-wide config: light navbar, theme (`[cosmo, theme.scss]`), footer, Google Analytics, favicon
+- `index.qmd` — landing page: `trestles` about hero, research-interest chips, and a "Recent news" table listing of the latest posts
 - `research.qmd` — dedicated research page with Bootstrap image carousels for each topic
 - `blog.qmd` — blog listing page, auto-discovers posts from `posts/` directory
 - `publications.qmd` — renders bibliography via BibBase from `references.bib` (grouped by year, interactive)
-- `styles.css` — custom styles: dark navbar/banner/captions (`#2c3e50`), light gray body (`#f4f4f4`), white content area, responsive carousel layout
-- `posts/_metadata.yml` — shared blog post config: `freeze: true` and `title-block-banner: true`
+- `theme.scss` — all custom styling (SCSS variables + rules): fonts, palette, navbar, carousels, booking/software/blog tweaks
+- `posts/_metadata.yml` — shared blog post config: `freeze: true`
 
 ### Content Patterns
 
@@ -44,10 +44,10 @@ This is a Quarto website project (`project.type: website`) with output to `docs/
 
 ### Styling Notes
 
-- Theme is `cosmo` with dark navbar (`background: dark`), color scheme anchored on `#2c3e50`
-- Title block banners, carousel captions, and footer use the same dark color for visual consistency
-- Body background is light gray (`#f4f4f4`), content area is white for card-like contrast
-- Carousels use Bootstrap's `carousel` component with custom CSS for responsive heights (500px / 300px / 200px breakpoints), dark captions below images, rounded corners, and subtle box shadows
+- Minimalist look: white background, light navbar with a hairline border, no title banners (`title-block-banner: false` globally)
+- Fonts: Inter (body/UI) + Source Serif 4 (headings), loaded from Google Fonts in `theme.scss`
+- Palette: ink `#1d2733`, muted `#5f6b78`, hairlines `#e6e9ed`, single accent `#0b5f86` (ocean blue)
+- Carousels: thin border, muted caption strip below the image with the prev/next arrows inside it (responsive heights 460/300/200px)
 - Post computational output is frozen by default (`freeze: true` in `posts/_metadata.yml`)
 
 ### Workflow Notes

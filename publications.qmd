@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-title-block-banner: true
 ---
 
 <br>

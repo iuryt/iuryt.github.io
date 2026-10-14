@@ -1,7 +1,6 @@
 ---
 title: "Research"
 subtitle: "Science, Software, and Society"
-title-block-banner: true
 ---
 
 At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on marine conservation.
