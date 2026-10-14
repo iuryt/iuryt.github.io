@@ -7,8 +7,33 @@
       "/posts/saving-tico/index.html",
       "/posts/presentations-cookbook/index.html",
       "/posts/colab-github/index.html",
-      "/posts/obsidian-github/index.html",
-      "/posts/welcome/index.html"
+      "/posts/obsidian-github/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/southbrazilflood/index.html",
+      "/posts/radionovelo_tico/index.html",
+      "/posts/saving-tico/index.html",
+      "/posts/presentations-cookbook/index.html",
+      "/posts/colab-github/index.html",
+      "/posts/obsidian-github/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/data-eddy-profiles.html",
+      "/research/data-remote-sensing.html",
+      "/research/data-open-tools.html",
+      "/research/physics-vortices.html",
+      "/research/physics-fronts.html",
+      "/research/physics-airsea.html",
+      "/research/impacts-floods.html",
+      "/research/impacts-wildlife.html",
+      "/research/impacts-phytoplankton.html",
+      "/research/teaching-hands-on.html"
     ]
   }
 ]

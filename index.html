@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Iury   Simoes-Sousa – iuryt</title>
+<title>Iury Simoes-Sousa</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,15 +37,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-da3ff124fca00a38fed78e5d4608c2bf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f24fbbd29659b906f322e6ddb797df4a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-714SSKLCZ0"></script>
 
 <script type="text/javascript">
@@ -83,8 +114,44 @@ gtag('js', new Date());
 gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Iury Simoes-Sousa">
+<meta property="og:description" content="Computational oceanographer and Assistant Professor at the University of Delaware">
+<meta property="og:image" content="https://iuryt.github.io/profile.jpg">
+<meta property="og:site_name" content="Iury Simoes-Sousa">
+<meta name="twitter:title" content="Iury Simoes-Sousa">
+<meta name="twitter:description" content="Computational oceanographer and Assistant Professor at the University of Delaware">
+<meta name="twitter:image" content="https://iuryt.github.io/profile.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -95,7 +162,7 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">iuryt</span>
+    <span class="navbar-title">Iury Simoes-Sousa</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -109,20 +176,20 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./booking.html"> 
-<span class="menu-text">Schedule</span></a>
+    <a class="nav-link" href="./group.html"> 
+<span class="menu-text">Group</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://drive.google.com/file/d/1XN-B0u18Rt03k9A7tMaLTz_6z72f6oqr/view?usp=sharing" target="_blank"> 
@@ -154,10 +221,10 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="profile.jpg" class="about-image
-  round " style="height: 13em; width: 13em;">
+  round " style="height: 12em; width: 12em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Iury <br> Simoes-Sousa</h1>
+<h1 class="title">Iury Simoes-Sousa</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
@@ -165,10 +232,10 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
     <div class="about-links">
   <a href="https://github.com/iuryt" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
+     <span class="about-link-text">GitHub</span>
   </a>
   <a href="https://www.researchgate.net/profile/Iury-T-Simoes-Sousa" class="about-link" rel="" target="">
-    <i class="bi bi-researchgate"></i>
+    <i class="bi bi-mortarboard"></i>
      <span class="about-link-text">ResearchGate</span>
   </a>
   <a href="https://www.linkedin.com/in/iury-tercio-simoes-sousa-06179615a/" class="about-link" rel="" target="">
@@ -179,27 +246,97 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
     <i class="bi bi-link"></i>
      <span class="about-link-text">Lattes</span>
   </a>
-  <a href="mailto:iury@whoi.edu" class="about-link" rel="" target="">
-    <i class="bi bi-mailbox"></i>
-     <span class="about-link-text">e-mail</span>
+  <a href="mailto:iury@udel.edu" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>I’m a <strong>Computational Oceanographer</strong> and an Assistant Professor at the <a href="https://www.udel.edu/">University of Delaware</a>. I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.</p>
+<div class="hero-role">
+<p>Computational Oceanographer · Assistant Professor, <a href="https://www.udel.edu/">University of Delaware</a></p>
+</div>
+<p>I combine physical oceanography, data-driven methods, and high-performance computing to study fundamental multiscale ocean processes and their consequences for ecosystems and human populations.</p>
 <p>Originally from Fortaleza (Brazil), I have a degree in Oceanography from the <a href="https://www.ufc.br/">Federal University of Ceará</a> (2014), a Master’s in Physical Oceanography from the <a href="https://www5.usp.br">University of São Paulo</a> (2017), and a PhD in Computational Science and Engineering from the <a href="https://www.umassd.edu/">University of Massachusetts Dartmouth</a> (2023).</p>
 <p>In my free time, I love playing accordion, dancing <a href="https://en.wikipedia.org/wiki/Forr%C3%B3">Forró</a>, studying history, and hiking. I am also <a href="https://en.wikipedia.org/wiki/Haemophilia">hemophilic</a>, and I’m passionate about promoting understanding and raising awareness of rare genetic disorders.</p>
-</section>
 </div></div>
 </div>
 
-<section id="science-software-and-society" class="level3">
-<h3 data-anchor-id="science-software-and-society">Science, Software, and Society</h3>
-<p>At the intersection of Data Science and Interdisciplinary Oceanography, my research leverages high-performance computational tools to analyze, model, and visualize oceanic and atmospheric processes. My expertise spans a diverse range of topics, from ocean vortices and extreme weather events to oceanographic influences on human populations and marine wildlife.</p>
-<p>I am also deeply committed to scientific outreach and education, ensuring that oceanography is accessible to a wider audience. Collaboration is at the core of my work, and I actively engage with scientists, students, and stakeholders to advance interdisciplinary ocean science and promote open, applied, data-driven discovery.</p>
-<p><a href="./research.html">Learn more about my research →</a></p>
+<section id="research" class="level2">
+<h2 data-anchor-id="research">Research</h2>
+<p>My research follows three connected lines:</p>
+<div class="research-lines">
+<p><a href="./research.html#data" class="line-data"><strong>1 · Data-driven</strong><br>Methods to fuse, share, and learn from large environmental datasets</a></p>
+<p><a href="./research.html#physics" class="line-dyn"><strong>2 · Dynamics</strong><br>Multiscale physical processes in the ocean and atmosphere</a></p>
+<p><a href="./research.html#impacts" class="line-imp"><strong>3 · Impacts</strong><br>How multiscale physics affects ecosystems and people</a></p>
+</div>
+<p><a href="./research.html">Learn more about my research →</a> &nbsp;·&nbsp; <a href="./group.html">Join the group →</a></p>
+</section>
+<section id="recent-news" class="level2">
+<h2 data-anchor-id="recent-news">Recent news</h2>
+<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Date
+</th>
+
+<th>
+Title
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="TmV3cyUyQ1Jlc2VhcmNo" data-listing-date-sort="1773187200000" data-listing-file-modified-sort="1791941579234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87" data-listing-title-sort="Featured in Oceanus: The Human Cost of Brazil's Floods" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Mar 2026</span>
+</td>
+<td>
+<a href="./posts/southbrazilflood/index.html" class="title listing-title">Featured in Oceanus: The Human Cost of Brazil’s Floods</a>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="TmV3cyUyQ091dHJlYWNo" data-listing-date-sort="1772668800000" data-listing-file-modified-sort="1791941579233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Special Participation on Rádio Novelo Apresenta Podcast" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Mar 2026</span>
+</td>
+<td>
+<a href="./posts/radionovelo_tico/index.html" class="title listing-title">Special Participation on Rádio Novelo Apresenta Podcast</a>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="TmV3cyUyQ1Jlc2VhcmNo" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1791941579234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Featured in Oceanus: Saving Tico" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Nov 2024</span>
+</td>
+<td>
+<a href="./posts/saving-tico/index.html" class="title listing-title">Featured in Oceanus: Saving Tico</a>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="U2NpZW5jZQ==" data-listing-date-sort="1681084800000" data-listing-file-modified-sort="1791941579233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="702" data-listing-title-sort="Cookbook for nice scientific presentations" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Apr 2023</span>
+</td>
+<td>
+<a href="./posts/presentations-cookbook/index.html" class="title listing-title">Cookbook for nice scientific presentations</a>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="./blog.html">All posts →</a></p>
+
 
 
 
@@ -600,6 +737,25 @@ gtag('config', 'G-714SSKLCZ0', { 'anonymize_ip': true});
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Iury Simoes-Sousa</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p>Built with Quarto</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
